@@ -1,0 +1,1067 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FamilyLiteracy.mdfModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FamilyLiteracyEntityDataModel" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AdvancedPhonics" EntityType="FamilyLiteracy.mdfModel.AdvancedPhonic" />
+    <EntitySet Name="Assessments" EntityType="FamilyLiteracy.mdfModel.Assessment" />
+    <EntitySet Name="BeginningPhonics" EntityType="FamilyLiteracy.mdfModel.BeginningPhonic" />
+    <EntitySet Name="Blending_2snd_Words" EntityType="FamilyLiteracy.mdfModel.Blending_2snd_Words" />
+    <EntitySet Name="Blending_3snd_Words" EntityType="FamilyLiteracy.mdfModel.Blending_3snd_Words" />
+    <EntitySet Name="Blending_4snd_Words" EntityType="FamilyLiteracy.mdfModel.Blending_4snd_Words" />
+    <EntitySet Name="Blending_5snd_Words" EntityType="FamilyLiteracy.mdfModel.Blending_5snd_Words" />
+    <EntitySet Name="Blending_Summation" EntityType="FamilyLiteracy.mdfModel.Blending_Summation" />
+    <EntitySet Name="CBMDatas" EntityType="FamilyLiteracy.mdfModel.CBMData" />
+    <EntitySet Name="Classrooms" EntityType="FamilyLiteracy.mdfModel.Classroom" />
+    <EntitySet Name="Clinicians" EntityType="FamilyLiteracy.mdfModel.Clinician" />
+    <EntitySet Name="Clinician_DailyOutSchedule" EntityType="FamilyLiteracy.mdfModel.Clinician_DailyOutSchedule" />
+    <EntitySet Name="CodeKnowledge_Summations" EntityType="FamilyLiteracy.mdfModel.CodeKnowledge_Summations" />
+    <EntitySet Name="ConsonantDigraphs" EntityType="FamilyLiteracy.mdfModel.ConsonantDigraph" />
+    <EntitySet Name="DefaultScheduleFileLocations" EntityType="FamilyLiteracy.mdfModel.DefaultScheduleFileLocation" />
+    <EntitySet Name="GridViewColumnSizeAdjustments" EntityType="FamilyLiteracy.mdfModel.GridViewColumnSizeAdjustment" />
+    <EntitySet Name="GuardianProfiles" EntityType="FamilyLiteracy.mdfModel.GuardianProfile" />
+    <EntitySet Name="Languages" EntityType="FamilyLiteracy.mdfModel.Language" />
+    <EntitySet Name="Language_Tests" EntityType="FamilyLiteracy.mdfModel.Language_Tests" />
+    <EntitySet Name="Lists" EntityType="FamilyLiteracy.mdfModel.List" />
+    <EntitySet Name="MainSchedules" EntityType="FamilyLiteracy.mdfModel.MainSchedule" />
+    <EntitySet Name="Memories" EntityType="FamilyLiteracy.mdfModel.Memory" />
+    <EntitySet Name="Memory_Tests" EntityType="FamilyLiteracy.mdfModel.Memory_Tests" />
+    <EntitySet Name="Phonological_Awareness" EntityType="FamilyLiteracy.mdfModel.Phonological_Awareness" />
+    <EntitySet Name="Phonological_Awareness_Tests" EntityType="FamilyLiteracy.mdfModel.Phonological_Awareness_Tests" />
+    <EntitySet Name="Rapid_Naming" EntityType="FamilyLiteracy.mdfModel.Rapid_Naming" />
+    <EntitySet Name="Rapid_Naming_Tests" EntityType="FamilyLiteracy.mdfModel.Rapid_Naming_Tests" />
+    <EntitySet Name="ReadingSources" EntityType="FamilyLiteracy.mdfModel.ReadingSource" />
+    <EntitySet Name="Segment_2snd_NonWords" EntityType="FamilyLiteracy.mdfModel.Segment_2snd_NonWords" />
+    <EntitySet Name="Segment_2snd_Words" EntityType="FamilyLiteracy.mdfModel.Segment_2snd_Words" />
+    <EntitySet Name="Segment_3snd_NonWords" EntityType="FamilyLiteracy.mdfModel.Segment_3snd_NonWords" />
+    <EntitySet Name="Segment_3snd_Words" EntityType="FamilyLiteracy.mdfModel.Segment_3snd_Words" />
+    <EntitySet Name="Segment_4snd_NonWords" EntityType="FamilyLiteracy.mdfModel.Segment_4snd_NonWords" />
+    <EntitySet Name="Segment_4snd_Words" EntityType="FamilyLiteracy.mdfModel.Segment_4snd_Words" />
+    <EntitySet Name="Segment_5snd_Words" EntityType="FamilyLiteracy.mdfModel.Segment_5snd_Words" />
+    <EntitySet Name="Segmenting_Summation" EntityType="FamilyLiteracy.mdfModel.Segmenting_Summation" />
+    <EntitySet Name="Spellings" EntityType="FamilyLiteracy.mdfModel.Spelling" />
+    <EntitySet Name="Spelling_Tests" EntityType="FamilyLiteracy.mdfModel.Spelling_Tests" />
+    <EntitySet Name="StandardScore_ReferenceTable" EntityType="FamilyLiteracy.mdfModel.StandardScore_ReferenceTable" />
+    <EntitySet Name="Stud_Guard_Rel" EntityType="FamilyLiteracy.mdfModel.Stud_Guard_Rel" />
+    <EntitySet Name="StudentCurrentReadingLevels" EntityType="FamilyLiteracy.mdfModel.StudentCurrentReadingLevel" />
+    <EntitySet Name="StudentHours" EntityType="FamilyLiteracy.mdfModel.StudentHour" />
+    <EntitySet Name="StudentInfoes" EntityType="FamilyLiteracy.mdfModel.StudentInfo" />
+    <EntitySet Name="StudentNotes" EntityType="FamilyLiteracy.mdfModel.StudentNote" />
+    <EntitySet Name="StudentProfiles" EntityType="FamilyLiteracy.mdfModel.StudentProfile" />
+    <EntitySet Name="StudentSchools" EntityType="FamilyLiteracy.mdfModel.StudentSchool" />
+    <EntitySet Name="sysdiagrams" EntityType="FamilyLiteracy.mdfModel.sysdiagram" />
+    <EntitySet Name="Texts" EntityType="FamilyLiteracy.mdfModel.Text" />
+    <EntitySet Name="Text_Reading" EntityType="FamilyLiteracy.mdfModel.Text_Reading" />
+    <EntitySet Name="Text_Reading_Tests" EntityType="FamilyLiteracy.mdfModel.Text_Reading_Tests" />
+    <EntitySet Name="VowelDigraphs" EntityType="FamilyLiteracy.mdfModel.VowelDigraph" />
+    <EntitySet Name="Word_Reading" EntityType="FamilyLiteracy.mdfModel.Word_Reading" />
+    <EntitySet Name="Word_Reading_Tests" EntityType="FamilyLiteracy.mdfModel.Word_Reading_Tests" />
+    <AssociationSet Name="FK_AdvancedPhonics_VowelDigraphs1" Association="FamilyLiteracy.mdfModel.FK_AdvancedPhonics_VowelDigraphs1">
+      <End Role="VowelDigraph" EntitySet="VowelDigraphs" />
+      <End Role="AdvancedPhonic" EntitySet="AdvancedPhonics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CodeKnowledge_Summations_AdvancedPhonics1" Association="FamilyLiteracy.mdfModel.FK_CodeKnowledge_Summations_AdvancedPhonics1">
+      <End Role="AdvancedPhonic" EntitySet="AdvancedPhonics" />
+      <End Role="CodeKnowledge_Summations" EntitySet="CodeKnowledge_Summations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsonantDigraphs_BeginningPhonics" Association="FamilyLiteracy.mdfModel.FK_ConsonantDigraphs_BeginningPhonics">
+      <End Role="BeginningPhonic" EntitySet="BeginningPhonics" />
+      <End Role="ConsonantDigraph" EntitySet="ConsonantDigraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_3snd_Words_Blending_2snd_Words" Association="FamilyLiteracy.mdfModel.FK_Blending_3snd_Words_Blending_2snd_Words">
+      <End Role="Blending_2snd_Words" EntitySet="Blending_2snd_Words" />
+      <End Role="Blending_3snd_Words" EntitySet="Blending_3snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_4snd_Words_Blending_3snd_Words" Association="FamilyLiteracy.mdfModel.FK_Blending_4snd_Words_Blending_3snd_Words">
+      <End Role="Blending_3snd_Words" EntitySet="Blending_3snd_Words" />
+      <End Role="Blending_4snd_Words" EntitySet="Blending_4snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_5snd_Words_Blending_4snd_Words" Association="FamilyLiteracy.mdfModel.FK_Blending_5snd_Words_Blending_4snd_Words">
+      <End Role="Blending_4snd_Words" EntitySet="Blending_4snd_Words" />
+      <End Role="Blending_5snd_Words" EntitySet="Blending_5snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_Summation_Blending_5snd_Words" Association="FamilyLiteracy.mdfModel.FK_Blending_Summation_Blending_5snd_Words">
+      <End Role="Blending_5snd_Words" EntitySet="Blending_5snd_Words" />
+      <End Role="Blending_Summation" EntitySet="Blending_Summation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VowelDigraphs_ConsonantDigraphs" Association="FamilyLiteracy.mdfModel.FK_VowelDigraphs_ConsonantDigraphs">
+      <End Role="ConsonantDigraph" EntitySet="ConsonantDigraphs" />
+      <End Role="VowelDigraph" EntitySet="VowelDigraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_List_ReadingSources" Association="FamilyLiteracy.mdfModel.FK_List_ReadingSources">
+      <End Role="ReadingSource" EntitySet="ReadingSources" />
+      <End Role="List" EntitySet="Lists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Text_ReadingSources" Association="FamilyLiteracy.mdfModel.FK_Text_ReadingSources">
+      <End Role="ReadingSource" EntitySet="ReadingSources" />
+      <End Role="Text" EntitySet="Texts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_2snd_NonWords_Segment_5snd_Words" Association="FamilyLiteracy.mdfModel.FK_Segment_2snd_NonWords_Segment_5snd_Words">
+      <End Role="Segment_5snd_Words" EntitySet="Segment_5snd_Words" />
+      <End Role="Segment_2snd_NonWords" EntitySet="Segment_2snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_3snd_NonWords_Segment_2snd_NonWords" Association="FamilyLiteracy.mdfModel.FK_Segment_3snd_NonWords_Segment_2snd_NonWords">
+      <End Role="Segment_2snd_NonWords" EntitySet="Segment_2snd_NonWords" />
+      <End Role="Segment_3snd_NonWords" EntitySet="Segment_3snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_3snd_Words_Segment_2snd_Words" Association="FamilyLiteracy.mdfModel.FK_Segment_3snd_Words_Segment_2snd_Words">
+      <End Role="Segment_2snd_Words" EntitySet="Segment_2snd_Words" />
+      <End Role="Segment_3snd_Words" EntitySet="Segment_3snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_4snd_NonWords_Segment_3snd_NonWords" Association="FamilyLiteracy.mdfModel.FK_Segment_4snd_NonWords_Segment_3snd_NonWords">
+      <End Role="Segment_3snd_NonWords" EntitySet="Segment_3snd_NonWords" />
+      <End Role="Segment_4snd_NonWords" EntitySet="Segment_4snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_4snd_Words_Segment_3snd_Words" Association="FamilyLiteracy.mdfModel.FK_Segment_4snd_Words_Segment_3snd_Words">
+      <End Role="Segment_3snd_Words" EntitySet="Segment_3snd_Words" />
+      <End Role="Segment_4snd_Words" EntitySet="Segment_4snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segmenting_Summation_Segment_4snd_NonWords" Association="FamilyLiteracy.mdfModel.FK_Segmenting_Summation_Segment_4snd_NonWords">
+      <End Role="Segment_4snd_NonWords" EntitySet="Segment_4snd_NonWords" />
+      <End Role="Segmenting_Summation" EntitySet="Segmenting_Summation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_5snd_Words_Segment_4snd_Words" Association="FamilyLiteracy.mdfModel.FK_Segment_5snd_Words_Segment_4snd_Words">
+      <End Role="Segment_4snd_Words" EntitySet="Segment_4snd_Words" />
+      <End Role="Segment_5snd_Words" EntitySet="Segment_5snd_Words" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AdvancedPhonic">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="x" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ck" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ce" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ea" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oa" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ai" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ay" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ou" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ey" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="au" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ew" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="igh" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ui" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="eigh" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="var_vdg" Type="Int32" />
+    <NavigationProperty Name="VowelDigraph" Relationship="FamilyLiteracy.mdfModel.FK_AdvancedPhonics_VowelDigraphs1" FromRole="AdvancedPhonic" ToRole="VowelDigraph" />
+    <NavigationProperty Name="CodeKnowledge_Summations" Relationship="FamilyLiteracy.mdfModel.FK_CodeKnowledge_Summations_AdvancedPhonics1" FromRole="AdvancedPhonic" ToRole="CodeKnowledge_Summations" />
+  </EntityType>
+  <EntityType Name="Assessment">
+    <Key>
+      <PropertyRef Name="AssessmentID" />
+    </Key>
+    <Property Name="AssessmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Group" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Function" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Raw_Score" Type="Int32" />
+    <Property Name="Standard_Score" Type="Int32" />
+    <Property Name="Total_Items" Type="Int32" />
+    <Property Name="OperatorID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="BeginningPhonic">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="a" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="e" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="i" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="o" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="u" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="b" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="c" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="d" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="f" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="g" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="h" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="j" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="k" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="l" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="m" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="n" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="p" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="r" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="s" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="t" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="v" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="w" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="y" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="z" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="ConsonantDigraph" Relationship="FamilyLiteracy.mdfModel.FK_ConsonantDigraphs_BeginningPhonics" FromRole="BeginningPhonic" ToRole="ConsonantDigraph" />
+  </EntityType>
+  <EntityType Name="Blending_2snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="at" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="shee" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="may" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="saw" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="it" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fur" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_3snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_3snd_Words_Blending_2snd_Words" FromRole="Blending_2snd_Words" ToRole="Blending_3snd_Words" />
+  </EntityType>
+  <EntityType Name="Blending_3snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="pig" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="bug" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="hat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pin" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="rat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="bird" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="shell" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="five" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="boat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_2snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_3snd_Words_Blending_2snd_Words" FromRole="Blending_3snd_Words" ToRole="Blending_2snd_Words" />
+    <NavigationProperty Name="Blending_4snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_4snd_Words_Blending_3snd_Words" FromRole="Blending_3snd_Words" ToRole="Blending_4snd_Words" />
+  </EntityType>
+  <EntityType Name="Blending_4snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="frog" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="grass" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stick" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="jump" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="under" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mist" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_3snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_4snd_Words_Blending_3snd_Words" FromRole="Blending_4snd_Words" ToRole="Blending_3snd_Words" />
+    <NavigationProperty Name="Blending_5snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_5snd_Words_Blending_4snd_Words" FromRole="Blending_4snd_Words" ToRole="Blending_5snd_Words" />
+  </EntityType>
+  <EntityType Name="Blending_5snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="print" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="crunch" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="plant" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stamp" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="street" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="blast" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_4snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_5snd_Words_Blending_4snd_Words" FromRole="Blending_5snd_Words" ToRole="Blending_4snd_Words" />
+    <NavigationProperty Name="Blending_Summation" Relationship="FamilyLiteracy.mdfModel.FK_Blending_Summation_Blending_5snd_Words" FromRole="Blending_5snd_Words" ToRole="Blending_Summation" />
+  </EntityType>
+  <EntityType Name="Blending_Summation">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Two_Sound" Type="Int32" />
+    <Property Name="Three_Sound" Type="Int32" />
+    <Property Name="Four_Sound" Type="Int32" />
+    <Property Name="Five_Sound" Type="Int32" />
+    <Property Name="ClinicianName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_5snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Blending_Summation_Blending_5snd_Words" FromRole="Blending_Summation" ToRole="Blending_5snd_Words" />
+  </EntityType>
+  <EntityType Name="CBMData">
+    <Key>
+      <PropertyRef Name="CBMID" />
+    </Key>
+    <Property Name="CBMID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Correct_Words_Each_Minute" Type="Int32" />
+    <Property Name="Errors" Type="Int32" />
+    <Property Name="Timed" Type="DateTime" Precision="0" />
+    <Property Name="Word_Count" Type="Int32" />
+    <Property Name="Test_Method" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Text_Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Reading_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Passage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Classroom">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Transactionid" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Campus" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Clinician">
+    <Key>
+      <PropertyRef Name="ClinicianId" />
+    </Key>
+    <Property Name="ClinicianId" Type="String" Nullable="false" MaxLength="5" FixedLength="true" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Cellular" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Alt_Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="Zip" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Inactive" Type="Boolean" Nullable="false" />
+    <Property Name="AutoSelect" Type="Boolean" />
+    <Property Name="ClinicianOrder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clinician_DailyOutSchedule">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClinicianId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="TimeIn" Type="DateTime" Precision="0" />
+    <Property Name="TimeOut" Type="DateTime" Precision="0" />
+    <Property Name="Processing_Date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="CodeKnowledge_Summations">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Beginning_Phonics" Type="Int32" />
+    <Property Name="Consonant_Digraphs" Type="Int32" />
+    <Property Name="Vowel_Digraphs" Type="Int32" />
+    <Property Name="Basic_Phonics" Type="Int32" />
+    <Property Name="Advanced_Phonics" Type="Int32" />
+    <Property Name="oneltr_con" Type="Int32" />
+    <Property Name="sv" Type="Int32" />
+    <Property Name="con" Type="Int32" />
+    <Property Name="cdg" Type="Int32" />
+    <Property Name="ovdg" Type="Int32" />
+    <Property Name="var_vdg" Type="Int32" />
+    <Property Name="ClinicianName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="AdvancedPhonic" Relationship="FamilyLiteracy.mdfModel.FK_CodeKnowledge_Summations_AdvancedPhonics1" FromRole="CodeKnowledge_Summations" ToRole="AdvancedPhonic" />
+  </EntityType>
+  <EntityType Name="ConsonantDigraph">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="sh" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ch" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="th" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="qu" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BeginningPhonic" Relationship="FamilyLiteracy.mdfModel.FK_ConsonantDigraphs_BeginningPhonics" FromRole="ConsonantDigraph" ToRole="BeginningPhonic" />
+    <NavigationProperty Name="VowelDigraph" Relationship="FamilyLiteracy.mdfModel.FK_VowelDigraphs_ConsonantDigraphs" FromRole="ConsonantDigraph" ToRole="VowelDigraph" />
+  </EntityType>
+  <EntityType Name="DefaultScheduleFileLocation">
+    <Key>
+      <PropertyRef Name="Index" />
+    </Key>
+    <Property Name="Index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Student_Schedule_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Office_Schedule_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StorageDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="GridViewColumnSizeAdjustment">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FormReferenceNumber" Type="Int32" />
+    <Property Name="GridViewControlNumber" Type="Int32" />
+    <Property Name="GridViewColumnSize" Type="Int32" />
+  </EntityType>
+  <EntityType Name="GuardianProfile">
+    <Key>
+      <PropertyRef Name="GuardianID" />
+    </Key>
+    <Property Name="GuardianID" Type="Int32" Nullable="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="First_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Guardian_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Alt_Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Zip_Code" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Home_Phone" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Cell_Phone" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Work_Phone" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Fax" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Language_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="Source_Level" />
+    </Key>
+    <Property Name="Source_Level" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Minimum_Form_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Maximum_Form_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Index" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="FamilyLiteracy.mdfModel.FK_List_ReadingSources" FromRole="List" ToRole="ReadingSource" />
+  </EntityType>
+  <EntityType Name="MainSchedule">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="Studentid" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="TimeIn" Type="DateTime" Precision="0" />
+    <Property Name="Timeout" Type="DateTime" Precision="0" />
+    <Property Name="Clinicianid" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ClinicianSignature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RequestedDate" Type="DateTime" Precision="0" />
+    <Property Name="RequestedFashion" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Processingclinician" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Attendance" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Memory">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Memory_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Phonological_Awareness">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Phonological_Awareness_Tests">
+    <Key>
+      <PropertyRef Name="Index" />
+    </Key>
+    <Property Name="Index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Rapid_Naming">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Rapid_Naming_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ReadingSource">
+    <Key>
+      <PropertyRef Name="Source" />
+    </Key>
+    <Property Name="Source" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SourceType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Lists" Relationship="FamilyLiteracy.mdfModel.FK_List_ReadingSources" FromRole="ReadingSource" ToRole="List" />
+    <NavigationProperty Name="Texts" Relationship="FamilyLiteracy.mdfModel.FK_Text_ReadingSources" FromRole="ReadingSource" ToRole="Text" />
+  </EntityType>
+  <EntityType Name="Segment_2snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="ees" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ta" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="koe" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ip" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ak" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="aen" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_5snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_2snd_NonWords_Segment_5snd_Words" FromRole="Segment_2snd_NonWords" ToRole="Segment_5snd_Words" />
+    <NavigationProperty Name="Segment_3snd_NonWords" Relationship="FamilyLiteracy.mdfModel.FK_Segment_3snd_NonWords_Segment_2snd_NonWords" FromRole="Segment_2snd_NonWords" ToRole="Segment_3snd_NonWords" />
+  </EntityType>
+  <EntityType Name="Segment_2snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="in" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="it" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pie" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="eat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="no" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="lie" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_3snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_3snd_Words_Segment_2snd_Words" FromRole="Segment_2snd_Words" ToRole="Segment_3snd_Words" />
+  </EntityType>
+  <EntityType Name="Segment_3snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="pim" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mif" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="sep" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_2snd_NonWords" Relationship="FamilyLiteracy.mdfModel.FK_Segment_3snd_NonWords_Segment_2snd_NonWords" FromRole="Segment_3snd_NonWords" ToRole="Segment_2snd_NonWords" />
+    <NavigationProperty Name="Segment_4snd_NonWords" Relationship="FamilyLiteracy.mdfModel.FK_Segment_4snd_NonWords_Segment_3snd_NonWords" FromRole="Segment_3snd_NonWords" ToRole="Segment_4snd_NonWords" />
+  </EntityType>
+  <EntityType Name="Segment_3snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="dog" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="hat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pin" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pot" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="rat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="nut" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_2snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_3snd_Words_Segment_2snd_Words" FromRole="Segment_3snd_Words" ToRole="Segment_2snd_Words" />
+    <NavigationProperty Name="Segment_4snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_4snd_Words_Segment_3snd_Words" FromRole="Segment_3snd_Words" ToRole="Segment_4snd_Words" />
+  </EntityType>
+  <EntityType Name="Segment_4snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="flob" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="prif" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="sept" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_3snd_NonWords" Relationship="FamilyLiteracy.mdfModel.FK_Segment_4snd_NonWords_Segment_3snd_NonWords" FromRole="Segment_4snd_NonWords" ToRole="Segment_3snd_NonWords" />
+    <NavigationProperty Name="Segmenting_Summation" Relationship="FamilyLiteracy.mdfModel.FK_Segmenting_Summation_Segment_4snd_NonWords" FromRole="Segment_4snd_NonWords" ToRole="Segmenting_Summation" />
+  </EntityType>
+  <EntityType Name="Segment_4snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="frog" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="black" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="nest" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="trip" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="hand" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="drum" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_3snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_4snd_Words_Segment_3snd_Words" FromRole="Segment_4snd_Words" ToRole="Segment_3snd_Words" />
+    <NavigationProperty Name="Segment_5snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_5snd_Words_Segment_4snd_Words" FromRole="Segment_4snd_Words" ToRole="Segment_5snd_Words" />
+  </EntityType>
+  <EntityType Name="Segment_5snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="clasp" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stand" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="thunder" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ground" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="blest" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="strive" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_2snd_NonWords" Relationship="FamilyLiteracy.mdfModel.FK_Segment_2snd_NonWords_Segment_5snd_Words" FromRole="Segment_5snd_Words" ToRole="Segment_2snd_NonWords" />
+    <NavigationProperty Name="Segment_4snd_Words" Relationship="FamilyLiteracy.mdfModel.FK_Segment_5snd_Words_Segment_4snd_Words" FromRole="Segment_5snd_Words" ToRole="Segment_4snd_Words" />
+  </EntityType>
+  <EntityType Name="Segmenting_Summation">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Two_Sound" Type="Int32" />
+    <Property Name="Three_Sound" Type="Int32" />
+    <Property Name="Four_Sound" Type="Int32" />
+    <Property Name="Five_Sound" Type="Int32" />
+    <Property Name="Two_snd_NonWord" Type="Int32" />
+    <Property Name="Three_snd_NonWord" Type="Int32" />
+    <Property Name="Four_snd_NonWord" Type="Int32" />
+    <Property Name="ClinicianName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_4snd_NonWords" Relationship="FamilyLiteracy.mdfModel.FK_Segmenting_Summation_Segment_4snd_NonWords" FromRole="Segmenting_Summation" ToRole="Segment_4snd_NonWords" />
+  </EntityType>
+  <EntityType Name="Spelling">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Spelling_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StandardScore_ReferenceTable">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" />
+    <Property Name="Standard_Score" Type="Int32" />
+    <Property Name="Percent" Type="Double" />
+  </EntityType>
+  <EntityType Name="Stud_Guard_Rel">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentID" Type="Int32" />
+    <Property Name="GuardianID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StudentCurrentReadingLevel">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Reading_Level" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Hour_Number" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StudentHour">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Hour_No" Type="Int32" />
+    <Property Name="ReadingLevel" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Campus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="InitialDate" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="FinalDate" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Zip_Code" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Student" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Parent_First_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Parent_Last_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Email_" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentNote">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="RemarkDate" Type="DateTime" Precision="0" />
+    <Property Name="RemarkHeader" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentProfile">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="First_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="Gender" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="District_Zone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="School_Attending" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Initial_Inquiry_Date" Type="DateTime" Precision="0" />
+    <Property Name="Assessment_Date" Type="DateTime" Precision="0" />
+    <Property Name="Report_Discussion_Date" Type="DateTime" Precision="0" />
+    <Property Name="Tutoring_Start_Date" Type="DateTime" Precision="0" />
+    <Property Name="Tutoring_Stop_Date" Type="DateTime" Precision="0" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="InitialNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentSchool">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="SchoolDist" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SchoolName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Prv_Pub" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Start_Passage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Stop_Passage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Index" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="FamilyLiteracy.mdfModel.FK_Text_ReadingSources" FromRole="Text" ToRole="ReadingSource" />
+  </EntityType>
+  <EntityType Name="Text_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Text_Reading_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="VowelDigraph">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="ie" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oo" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ue" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ow" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oy" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ee" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="aw" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AdvancedPhonic" Relationship="FamilyLiteracy.mdfModel.FK_AdvancedPhonics_VowelDigraphs1" FromRole="VowelDigraph" ToRole="AdvancedPhonic" />
+    <NavigationProperty Name="ConsonantDigraph" Relationship="FamilyLiteracy.mdfModel.FK_VowelDigraphs_ConsonantDigraphs" FromRole="VowelDigraph" ToRole="ConsonantDigraph" />
+  </EntityType>
+  <EntityType Name="Word_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="55" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Word_Reading_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Function" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_AdvancedPhonics_VowelDigraphs1">
+    <End Type="FamilyLiteracy.mdfModel.VowelDigraph" Role="VowelDigraph" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.AdvancedPhonic" Role="AdvancedPhonic" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="VowelDigraph">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="AdvancedPhonic">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CodeKnowledge_Summations_AdvancedPhonics1">
+    <End Type="FamilyLiteracy.mdfModel.AdvancedPhonic" Role="AdvancedPhonic" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.CodeKnowledge_Summations" Role="CodeKnowledge_Summations" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="AdvancedPhonic">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="CodeKnowledge_Summations">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsonantDigraphs_BeginningPhonics">
+    <End Type="FamilyLiteracy.mdfModel.BeginningPhonic" Role="BeginningPhonic" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.ConsonantDigraph" Role="ConsonantDigraph" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="BeginningPhonic">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="ConsonantDigraph">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_3snd_Words_Blending_2snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Blending_2snd_Words" Role="Blending_2snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Blending_3snd_Words" Role="Blending_3snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_2snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_4snd_Words_Blending_3snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Blending_3snd_Words" Role="Blending_3snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Blending_4snd_Words" Role="Blending_4snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_5snd_Words_Blending_4snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Blending_4snd_Words" Role="Blending_4snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Blending_5snd_Words" Role="Blending_5snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_Summation_Blending_5snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Blending_5snd_Words" Role="Blending_5snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Blending_Summation" Role="Blending_Summation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_Summation">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VowelDigraphs_ConsonantDigraphs">
+    <End Type="FamilyLiteracy.mdfModel.ConsonantDigraph" Role="ConsonantDigraph" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.VowelDigraph" Role="VowelDigraph" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ConsonantDigraph">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="VowelDigraph">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_List_ReadingSources">
+    <End Type="FamilyLiteracy.mdfModel.ReadingSource" Role="ReadingSource" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.List" Role="List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSource">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Text_ReadingSources">
+    <End Type="FamilyLiteracy.mdfModel.ReadingSource" Role="ReadingSource" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Text" Role="Text" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSource">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="Text">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_2snd_NonWords_Segment_5snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Segment_5snd_Words" Role="Segment_5snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segment_2snd_NonWords" Role="Segment_2snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_2snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_3snd_NonWords_Segment_2snd_NonWords">
+    <End Type="FamilyLiteracy.mdfModel.Segment_2snd_NonWords" Role="Segment_2snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segment_3snd_NonWords" Role="Segment_3snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_2snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_3snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_3snd_Words_Segment_2snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Segment_2snd_Words" Role="Segment_2snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segment_3snd_Words" Role="Segment_3snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_2snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_4snd_NonWords_Segment_3snd_NonWords">
+    <End Type="FamilyLiteracy.mdfModel.Segment_3snd_NonWords" Role="Segment_3snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segment_4snd_NonWords" Role="Segment_4snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_3snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_4snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_4snd_Words_Segment_3snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Segment_3snd_Words" Role="Segment_3snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segment_4snd_Words" Role="Segment_4snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segmenting_Summation_Segment_4snd_NonWords">
+    <End Type="FamilyLiteracy.mdfModel.Segment_4snd_NonWords" Role="Segment_4snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segmenting_Summation" Role="Segmenting_Summation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_4snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segmenting_Summation">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_5snd_Words_Segment_4snd_Words">
+    <End Type="FamilyLiteracy.mdfModel.Segment_4snd_Words" Role="Segment_4snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="FamilyLiteracy.mdfModel.Segment_5snd_Words" Role="Segment_5snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

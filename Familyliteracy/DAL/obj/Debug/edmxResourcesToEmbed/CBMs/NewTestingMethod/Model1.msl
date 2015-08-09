@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FAMILYLITERACYModelStoreContainer" CdmEntityContainer="FAMILYLITERACYEntities2">
+    <EntitySetMapping Name="Lists">
+      <EntityTypeMapping TypeName="FAMILYLITERACYModel.List">
+        <MappingFragment StoreEntitySet="List">
+          <ScalarProperty Name="Source_Level" ColumnName="Source_Level" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Minimum_Form_Level" ColumnName="Minimum_Form_Level" />
+          <ScalarProperty Name="Maximum_Form_Level" ColumnName="Maximum_Form_Level" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReadingSources">
+      <EntityTypeMapping TypeName="FAMILYLITERACYModel.ReadingSource">
+        <MappingFragment StoreEntitySet="ReadingSources">
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Sourcetype" ColumnName="Sourcetype" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Texts">
+      <EntityTypeMapping TypeName="FAMILYLITERACYModel.Text">
+        <MappingFragment StoreEntitySet="Text">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Source_Level" ColumnName="Source_Level" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Start_Passage" ColumnName="Start_Passage" />
+          <ScalarProperty Name="Stop_Passage" ColumnName="Stop_Passage" />
+          <ScalarProperty Name="Order" ColumnName="Order" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,756 @@
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalActiveXReportViewerLib13.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Adjustments.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Cancelation.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ModifySchedule.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConflict.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Display.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Form1.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReport.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NoShow.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalender.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentReportListing.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TriSchedule_BAK - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Cancelation.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyAttendance.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ModifySchedule.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConflict.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Display.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReport.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalender.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentReportListing.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriScheduling\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+E:\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+E:\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+E:\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+E:\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+E:\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+E:\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+E:\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+E:\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+E:\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+E:\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+E:\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Cancelation.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyAttendance.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ModifySchedule.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConflict.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Display.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReport.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalender.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentReportListing.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\PrinterQueueWatch.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\bin\Debug\PrinterQueueWatch.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.AddGuardianInfo.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyAttendance.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReschedule.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Display.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianInfo.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentData.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReport.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Notes.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentReportListing.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\PrinterQueueWatch.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\bin\Debug\PrinterQueueWatch.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.AddGuardianInfo.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyAttendance.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReschedule.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Display.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianInfo.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentData.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReport.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Notes.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentReportListing.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\PrinterQueueWatch.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\bin\Debug\PrinterQueueWatch.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.AddGuardianInfo.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReschedule.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Display.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianInfo.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentData.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReport.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Notes.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentReportListing.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.AddGuardianInfo.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentprofileData.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReschedule.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianInfo.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentData.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.AddGuardianInfo.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentprofileData.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DailyReschedule.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianInfo.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentData.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.AddGuardianInfo.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Attendance.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOffDays.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentprofileData.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinician.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianInfo.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentData.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.PrintScheduleForms.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Transfer.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalAnalysisCommLayerLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalAnalysisCommonControlsLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalClientDocLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalReportsCommonObjectModelLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalReportsControllersLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalReportsCubeDefModelLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalReportsDataDefModelLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Interop.CrystalReportsReportDefModelLib.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.CheckforScheduleConflicts.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianCalendar.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.DisplayNotes.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportSchedule.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewGuradian.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportFieldSelector.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentprofileData.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinicianProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.OfficeSchedulePrintOut.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.signin.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\System.Web.Providers.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.About.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportProfileSelector.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.CodeKnowledgeBlendingSegemting.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_CodeKnowledgeBlendingSegmenting.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Assesment_Test.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Test_Data.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.LoadingValues.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentSelector.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingReport.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RepeatedTesting.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SaveValues.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingAssessments.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianCalendar.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportSchedule.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewGuradian.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinicianProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianProfile.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.OfficeSchedulePrintOut.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SignIn.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ViewCodeKnowledgeBlendingSegmenting.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbprojResolveAssemblyReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\System.Web.Providers.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.About.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportProfileSelector.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.CodeKnowledgeBlendingSegemting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_CodeKnowledgeBlendingSegmenting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Assesment_Test.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Test_Data.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.LoadingValues.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentSelector.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingReport.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RepeatedTesting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SaveValues.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingAssessments.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianCalendar.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportSchedule.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewGuradian.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinicianProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.OfficeSchedulePrintOut.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SignIn.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ViewCodeKnowledgeBlendingSegmenting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.GenerateResource.Cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\System.Web.Providers.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\bin\Debug\log4net.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbprojResolveAssemblyReference.cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.About.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportProfileSelector.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentProfile.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.CodeKnowledgeBlendingSegemting.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_CodeKnowledgeBlendingSegmenting.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Assesment_Test.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Test_Data.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.LoadingValues.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentSelector.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingReport.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RepeatedTesting.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SaveValues.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingAssessments.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianCalendar.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportSchedule.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewGuradian.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentProfile.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinicianProfile.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianProfile.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.OfficeSchedulePrintOut.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SignIn.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ViewCodeKnowledgeBlendingSegmenting.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.GenerateResource.Cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbprojResolveAssemblyReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.About.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportProfileSelector.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.CodeKnowledgeBlendingSegemting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_CodeKnowledgeBlendingSegmenting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Assesment_Test.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Test_Data.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.LoadingValues.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentSelector.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingReport.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RepeatedTesting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SaveValues.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingAssessments.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianCalendar.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportSchedule.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewGuradian.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinicianProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.OfficeSchedulePrintOut.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SignIn.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentParentAsociation.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ViewCodeKnowledgeBlendingSegmenting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.GenerateResource.Cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\UserAttributes\IUserAttributeProfile.vb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\System.Web.Providers.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\bin\Debug\log4net.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\UserAttributes\IUserAttributeProfile.vb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.config
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe.manifest
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.application
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\BAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\DAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\log4net.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\System.Web.Providers.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\BAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\BAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\log4net.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbprojResolveAssemblyReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.ResolveComReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.About.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportProfileSelector.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportStudentProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.CodeKnowledgeBlendingSegemting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_CodeKnowledgeBlendingSegmenting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Assesment_Test.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Export_Test_Data.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.LoadingValues.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentSelector.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingReport.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RepeatedTesting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SaveValues.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.TestingAssessments.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianCalendar.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ExportSchedule.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewGuradian.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianOff.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ClinicianConsole.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditStudentProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.HomeDisplay.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditClinicianProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.EditGuardianProfile.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.intro.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.Resources.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewClinician.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.NewStudent.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.OfficeSchedulePrintOut.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.RescheduleDailyDisplay.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SchedulingConsole.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.SignIn.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentCalendar.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.StudentManager.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.ViewCodeKnowledgeBlendingSegmenting.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.vbproj.GenerateResource.Cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe.manifest
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.application
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.exe
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\obj\x86\Debug\Familyliteracy.pdb

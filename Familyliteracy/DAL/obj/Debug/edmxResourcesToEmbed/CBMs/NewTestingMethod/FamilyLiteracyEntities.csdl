@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FAMILYLITERACYModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="FAMILYLITERACYEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Lists" EntityType="FAMILYLITERACYModel.List" />
+    <EntitySet Name="ReadingSources" EntityType="FAMILYLITERACYModel.ReadingSource" />
+    <EntitySet Name="Texts" EntityType="FAMILYLITERACYModel.Text" />
+    <AssociationSet Name="FK_CBM_List_Source_Labels_List" Association="FAMILYLITERACYModel.FK_CBM_List_Source_Labels_List">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="List" EntitySet="Lists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Text_ReadingSources" Association="FAMILYLITERACYModel.FK_Text_ReadingSources">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="Text" EntitySet="Texts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="Source_Level" />
+    </Key>
+    <Property Name="Source_Level" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Source" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Minimum_Form_Level" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Maximum_Form_Level" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="ReadingSource" Relationship="FAMILYLITERACYModel.FK_CBM_List_Source_Labels_List" FromRole="List" ToRole="ReadingSources" />
+  </EntityType>
+  <EntityType Name="ReadingSource">
+    <Key>
+      <PropertyRef Name="Source" />
+    </Key>
+    <Property Name="Source" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Sourcetype" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Lists" Relationship="FAMILYLITERACYModel.FK_CBM_List_Source_Labels_List" FromRole="ReadingSources" ToRole="List" />
+    <NavigationProperty Name="Texts" Relationship="FAMILYLITERACYModel.FK_Text_ReadingSources" FromRole="ReadingSources" ToRole="Text" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Level" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Source" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Start_Passage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Stop_Passage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Order" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="FAMILYLITERACYModel.FK_Text_ReadingSources" FromRole="Text" ToRole="ReadingSources" />
+  </EntityType>
+  <Association Name="FK_CBM_List_Source_Labels_List">
+    <End Role="ReadingSources" Type="FAMILYLITERACYModel.ReadingSource" Multiplicity="0..1" />
+    <End Role="List" Type="FAMILYLITERACYModel.List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Text_ReadingSources">
+    <End Role="ReadingSources" Type="FAMILYLITERACYModel.ReadingSource" Multiplicity="0..1" />
+    <End Role="Text" Type="FAMILYLITERACYModel.Text" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="Text">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

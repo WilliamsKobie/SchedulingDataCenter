@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FamilyLiteracymdfStoreContainer" CdmEntityContainer="FamilyLiteracyEntities">
+    <EntitySetMapping Name="AdvancedPhonics">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.AdvancedPhonic">
+        <MappingFragment StoreEntitySet="AdvancedPhonics">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="x" ColumnName="x" />
+          <ScalarProperty Name="ck" ColumnName="ck" />
+          <ScalarProperty Name="ce" ColumnName="ce" />
+          <ScalarProperty Name="ea" ColumnName="ea" />
+          <ScalarProperty Name="oa" ColumnName="oa" />
+          <ScalarProperty Name="ai" ColumnName="ai" />
+          <ScalarProperty Name="oi" ColumnName="oi" />
+          <ScalarProperty Name="ay" ColumnName="ay" />
+          <ScalarProperty Name="ou" ColumnName="ou" />
+          <ScalarProperty Name="ey" ColumnName="ey" />
+          <ScalarProperty Name="au" ColumnName="au" />
+          <ScalarProperty Name="ew" ColumnName="ew" />
+          <ScalarProperty Name="igh" ColumnName="igh" />
+          <ScalarProperty Name="ui" ColumnName="ui" />
+          <ScalarProperty Name="eigh" ColumnName="eigh" />
+          <ScalarProperty Name="var_vdg" ColumnName="var_vdg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Assessments">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Assessment">
+        <MappingFragment StoreEntitySet="Assessments">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Group" ColumnName="Group" />
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Raw_Score" ColumnName="Raw_Score" />
+          <ScalarProperty Name="Standard_Score" ColumnName="Standard_Score" />
+          <ScalarProperty Name="Total_Items" ColumnName="Total_Items" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BeginningPhonics">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.BeginningPhonic">
+        <MappingFragment StoreEntitySet="BeginningPhonics">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="a" ColumnName="a" />
+          <ScalarProperty Name="e" ColumnName="e" />
+          <ScalarProperty Name="i" ColumnName="i" />
+          <ScalarProperty Name="o" ColumnName="o" />
+          <ScalarProperty Name="u" ColumnName="u" />
+          <ScalarProperty Name="b" ColumnName="b" />
+          <ScalarProperty Name="c" ColumnName="c" />
+          <ScalarProperty Name="d" ColumnName="d" />
+          <ScalarProperty Name="f" ColumnName="f" />
+          <ScalarProperty Name="g" ColumnName="g" />
+          <ScalarProperty Name="h" ColumnName="h" />
+          <ScalarProperty Name="j" ColumnName="j" />
+          <ScalarProperty Name="k" ColumnName="k" />
+          <ScalarProperty Name="l" ColumnName="l" />
+          <ScalarProperty Name="m" ColumnName="m" />
+          <ScalarProperty Name="n" ColumnName="n" />
+          <ScalarProperty Name="p" ColumnName="p" />
+          <ScalarProperty Name="r" ColumnName="r" />
+          <ScalarProperty Name="s" ColumnName="s" />
+          <ScalarProperty Name="t" ColumnName="t" />
+          <ScalarProperty Name="v" ColumnName="v" />
+          <ScalarProperty Name="w" ColumnName="w" />
+          <ScalarProperty Name="y" ColumnName="y" />
+          <ScalarProperty Name="z" ColumnName="z" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blending_2snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Blending_2snd_Words">
+        <MappingFragment StoreEntitySet="Blending_2snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="at" ColumnName="at" />
+          <ScalarProperty Name="shee" ColumnName="shee" />
+          <ScalarProperty Name="may" ColumnName="may" />
+          <ScalarProperty Name="saw" ColumnName="saw" />
+          <ScalarProperty Name="it" ColumnName="it" />
+          <ScalarProperty Name="fur" ColumnName="fur" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blending_3snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Blending_3snd_Words">
+        <MappingFragment StoreEntitySet="Blending_3snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="pig" ColumnName="pig" />
+          <ScalarProperty Name="bug" ColumnName="bug" />
+          <ScalarProperty Name="hat" ColumnName="hat" />
+          <ScalarProperty Name="pin" ColumnName="pin" />
+          <ScalarProperty Name="rat" ColumnName="rat" />
+          <ScalarProperty Name="bird" ColumnName="bird" />
+          <ScalarProperty Name="shell" ColumnName="shell" />
+          <ScalarProperty Name="five" ColumnName="five" />
+          <ScalarProperty Name="boat" ColumnName="boat" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blending_4snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Blending_4snd_Words">
+        <MappingFragment StoreEntitySet="Blending_4snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="frog" ColumnName="frog" />
+          <ScalarProperty Name="grass" ColumnName="grass" />
+          <ScalarProperty Name="stick" ColumnName="stick" />
+          <ScalarProperty Name="jump" ColumnName="jump" />
+          <ScalarProperty Name="under" ColumnName="under" />
+          <ScalarProperty Name="mist" ColumnName="mist" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blending_5snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Blending_5snd_Words">
+        <MappingFragment StoreEntitySet="Blending_5snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="print" ColumnName="print" />
+          <ScalarProperty Name="crunch" ColumnName="crunch" />
+          <ScalarProperty Name="plant" ColumnName="plant" />
+          <ScalarProperty Name="stamp" ColumnName="stamp" />
+          <ScalarProperty Name="street" ColumnName="street" />
+          <ScalarProperty Name="blast" ColumnName="blast" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blending_Summation">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Blending_Summation">
+        <MappingFragment StoreEntitySet="Blending_Summation">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Two_Sound" ColumnName="Two_Sound" />
+          <ScalarProperty Name="Three_Sound" ColumnName="Three_Sound" />
+          <ScalarProperty Name="Four_Sound" ColumnName="Four_Sound" />
+          <ScalarProperty Name="Five_Sound" ColumnName="Five_Sound" />
+          <ScalarProperty Name="ClinicianName" ColumnName="ClinicianName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classrooms">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Classroom">
+        <MappingFragment StoreEntitySet="Classroom">
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Transactionid" ColumnName="Transactionid" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Campus" ColumnName="Campus" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clinicians">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Clinician">
+        <MappingFragment StoreEntitySet="Clinician">
+          <ScalarProperty Name="ClinicianId" ColumnName="ClinicianId" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Cellular" ColumnName="Cellular" />
+          <ScalarProperty Name="Alt_Phone" ColumnName="Alt Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip" ColumnName="Zip" />
+          <ScalarProperty Name="Inactive" ColumnName="Inactive" />
+          <ScalarProperty Name="AutoSelect" ColumnName="AutoSelect" />
+          <ScalarProperty Name="ClinicianOrder" ColumnName="ClinicianOrder" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clinician_DailyOutSchedule">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Clinician_DailyOutSchedule">
+        <MappingFragment StoreEntitySet="Clinician_DailyOutSchedule">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="ClinicianId" ColumnName="ClinicianId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+          <ScalarProperty Name="TimeOut" ColumnName="TimeOut" />
+          <ScalarProperty Name="Processing_Date" ColumnName="Processing_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CodeKnowledge_Summations">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.CodeKnowledge_Summations">
+        <MappingFragment StoreEntitySet="CodeKnowledge_Summations">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Beginning_Phonics" ColumnName="Beginning_Phonics" />
+          <ScalarProperty Name="Consonant_Digraphs" ColumnName="Consonant_Digraphs" />
+          <ScalarProperty Name="Vowel_Digraphs" ColumnName="Vowel_Digraphs" />
+          <ScalarProperty Name="Basic_Phonics" ColumnName="Basic_Phonics" />
+          <ScalarProperty Name="Advanced_Phonics" ColumnName="Advanced_Phonics" />
+          <ScalarProperty Name="oneltr_con" ColumnName="oneltr_con" />
+          <ScalarProperty Name="sv" ColumnName="sv" />
+          <ScalarProperty Name="con" ColumnName="con" />
+          <ScalarProperty Name="cdg" ColumnName="cdg" />
+          <ScalarProperty Name="ovdg" ColumnName="ovdg" />
+          <ScalarProperty Name="var_vdg" ColumnName="var_vdg" />
+          <ScalarProperty Name="ClinicianName" ColumnName="ClinicianName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConsonantDigraphs">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.ConsonantDigraph">
+        <MappingFragment StoreEntitySet="ConsonantDigraphs">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="sh" ColumnName="sh" />
+          <ScalarProperty Name="ch" ColumnName="ch" />
+          <ScalarProperty Name="th" ColumnName="th" />
+          <ScalarProperty Name="qu" ColumnName="qu" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DefaultScheduleFileLocations">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.DefaultScheduleFileLocation">
+        <MappingFragment StoreEntitySet="DefaultScheduleFileLocations">
+          <ScalarProperty Name="Index" ColumnName="Index" />
+          <ScalarProperty Name="Student_Schedule_Location" ColumnName="Student_Schedule_Location" />
+          <ScalarProperty Name="Office_Schedule_Location" ColumnName="Office_Schedule_Location" />
+          <ScalarProperty Name="StorageDate" ColumnName="StorageDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GridViewColumnSizeAdjustments">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.GridViewColumnSizeAdjustment">
+        <MappingFragment StoreEntitySet="GridViewColumnSizeAdjustment">
+          <ScalarProperty Name="index" ColumnName="index" />
+          <ScalarProperty Name="FormReferenceNumber" ColumnName="FormReferenceNumber" />
+          <ScalarProperty Name="GridViewControlNumber" ColumnName="GridViewControlNumber" />
+          <ScalarProperty Name="GridViewColumnSize" ColumnName="GridViewColumnSize" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GuardianProfiles">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.GuardianProfile">
+        <MappingFragment StoreEntitySet="GuardianProfile">
+          <ScalarProperty Name="GuardianID" ColumnName="GuardianID" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First Name" />
+          <ScalarProperty Name="Guardian_Type" ColumnName="Guardian Type" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Alt_Email" ColumnName="Alt Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="Zip_Code" ColumnName="Zip Code" />
+          <ScalarProperty Name="Home_Phone" ColumnName="Home Phone" />
+          <ScalarProperty Name="Cell_Phone" ColumnName="Cell Phone" />
+          <ScalarProperty Name="Work" ColumnName="Work" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Other" ColumnName="Other" />
+          <ScalarProperty Name="Billing" ColumnName="Billing" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lists">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.List">
+        <MappingFragment StoreEntitySet="List">
+          <ScalarProperty Name="Source_Level" ColumnName="Source_Level" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Minimum_Form_Level" ColumnName="Minimum_Form_Level" />
+          <ScalarProperty Name="Maximum_Form_Level" ColumnName="Maximum_Form_Level" />
+          <ScalarProperty Name="Index" ColumnName="Index" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MainSchedules">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.MainSchedule">
+        <MappingFragment StoreEntitySet="MainSchedule">
+          <ScalarProperty Name="key" ColumnName="key" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Studentid" ColumnName="Studentid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="TimeIn" ColumnName="TimeIn" />
+          <ScalarProperty Name="Timeout" ColumnName="Timeout" />
+          <ScalarProperty Name="Clinicianid" ColumnName="Clinicianid" />
+          <ScalarProperty Name="ClinicianSignature" ColumnName="ClinicianSignature" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="RequestedDate" ColumnName="RequestedDate" />
+          <ScalarProperty Name="RequestedFashion" ColumnName="RequestedFashion" />
+          <ScalarProperty Name="Processingclinician" ColumnName="Processingclinician" />
+          <ScalarProperty Name="Attendance" ColumnName="Attendance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Memories">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Memory">
+        <MappingFragment StoreEntitySet="Memory">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Phonological_Awareness">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Phonological_Awareness">
+        <MappingFragment StoreEntitySet="Phonological_Awareness">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+          <ScalarProperty Name="Total_Items" ColumnName="Total_Items" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rapid_Naming">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Rapid_Naming">
+        <MappingFragment StoreEntitySet="Rapid_Naming">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ReadingSources">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.ReadingSource">
+        <MappingFragment StoreEntitySet="ReadingSources">
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="SourceType" ColumnName="SourceType" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_2snd_NonWords">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_2snd_NonWords">
+        <MappingFragment StoreEntitySet="Segment_2snd_NonWords">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ees" ColumnName="ees" />
+          <ScalarProperty Name="ta" ColumnName="ta" />
+          <ScalarProperty Name="koe" ColumnName="koe" />
+          <ScalarProperty Name="ip" ColumnName="ip" />
+          <ScalarProperty Name="ak" ColumnName="ak" />
+          <ScalarProperty Name="aen" ColumnName="aen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_2snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_2snd_Words">
+        <MappingFragment StoreEntitySet="Segment_2snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="in" ColumnName="in" />
+          <ScalarProperty Name="it" ColumnName="it" />
+          <ScalarProperty Name="pie" ColumnName="pie" />
+          <ScalarProperty Name="eat" ColumnName="eat" />
+          <ScalarProperty Name="no" ColumnName="no" />
+          <ScalarProperty Name="lie" ColumnName="lie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_3snd_NonWords">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_3snd_NonWords">
+        <MappingFragment StoreEntitySet="Segment_3snd_NonWords">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="pim" ColumnName="pim" />
+          <ScalarProperty Name="mif" ColumnName="mif" />
+          <ScalarProperty Name="sep" ColumnName="sep" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_3snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_3snd_Words">
+        <MappingFragment StoreEntitySet="Segment_3snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="dog" ColumnName="dog" />
+          <ScalarProperty Name="hat" ColumnName="hat" />
+          <ScalarProperty Name="pin" ColumnName="pin" />
+          <ScalarProperty Name="pot" ColumnName="pot" />
+          <ScalarProperty Name="rat" ColumnName="rat" />
+          <ScalarProperty Name="nut" ColumnName="nut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_4snd_NonWords">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_4snd_NonWords">
+        <MappingFragment StoreEntitySet="Segment_4snd_NonWords">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="flob" ColumnName="flob" />
+          <ScalarProperty Name="prif" ColumnName="prif" />
+          <ScalarProperty Name="sept" ColumnName="sept" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_4snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_4snd_Words">
+        <MappingFragment StoreEntitySet="Segment_4snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="frog" ColumnName="frog" />
+          <ScalarProperty Name="black" ColumnName="black" />
+          <ScalarProperty Name="nest" ColumnName="nest" />
+          <ScalarProperty Name="trip" ColumnName="trip" />
+          <ScalarProperty Name="hand" ColumnName="hand" />
+          <ScalarProperty Name="drum" ColumnName="drum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segment_5snd_Words">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segment_5snd_Words">
+        <MappingFragment StoreEntitySet="Segment_5snd_Words">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="clasp" ColumnName="clasp" />
+          <ScalarProperty Name="stand" ColumnName="stand" />
+          <ScalarProperty Name="thunder" ColumnName="thunder" />
+          <ScalarProperty Name="ground" ColumnName="ground" />
+          <ScalarProperty Name="blest" ColumnName="blest" />
+          <ScalarProperty Name="strive" ColumnName="strive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Segmenting_Summation">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Segmenting_Summation">
+        <MappingFragment StoreEntitySet="Segmenting_Summation">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Two_Sound" ColumnName="Two_Sound" />
+          <ScalarProperty Name="Three_Sound" ColumnName="Three_Sound" />
+          <ScalarProperty Name="Four_Sound" ColumnName="Four_Sound" />
+          <ScalarProperty Name="Five_Sound" ColumnName="Five_Sound" />
+          <ScalarProperty Name="Two_snd_NonWord" ColumnName="Two_snd_NonWord" />
+          <ScalarProperty Name="Three_snd_NonWord" ColumnName="Three_snd_NonWord" />
+          <ScalarProperty Name="Four_snd_NonWord" ColumnName="Four_snd_NonWord" />
+          <ScalarProperty Name="ClinicianName" ColumnName="ClinicianName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Spellings">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Spelling">
+        <MappingFragment StoreEntitySet="Spelling">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+          <ScalarProperty Name="Total_Items" ColumnName="Total_Items" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stud_Guard_Rel">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Stud_Guard_Rel">
+        <MappingFragment StoreEntitySet="Stud_Guard_Rel">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="GuardianID" ColumnName="GuardianID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student_Testing_Measurements">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Student_Testing_Measurements">
+        <MappingFragment StoreEntitySet="Student_Testing_Measurements">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Correct_Words_Each_Minute" ColumnName="Correct_Words_Each_Minute" />
+          <ScalarProperty Name="Errors" ColumnName="Errors" />
+          <ScalarProperty Name="Timed" ColumnName="Timed" />
+          <ScalarProperty Name="Word_Count" ColumnName="Word_Count" />
+          <ScalarProperty Name="Test_Method" ColumnName="Test_Method" />
+          <ScalarProperty Name="Text_Source" ColumnName="Text_Source" />
+          <ScalarProperty Name="Reading_Level" ColumnName="Reading_Level" />
+          <ScalarProperty Name="Passage" ColumnName="Passage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentCurrentReadingLevels">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.StudentCurrentReadingLevel">
+        <MappingFragment StoreEntitySet="StudentCurrentReadingLevel">
+          <ScalarProperty Name="key" ColumnName="key" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Reading_Level" ColumnName="Reading Level" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentHours">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.StudentHour">
+        <MappingFragment StoreEntitySet="StudentHour">
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Hour_No" ColumnName="Hour_No" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentNotes">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.StudentNote">
+        <MappingFragment StoreEntitySet="StudentNote">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="RemarkDate" ColumnName="RemarkDate" />
+          <ScalarProperty Name="RemarkHeader" ColumnName="RemarkHeader" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentProfiles">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.StudentProfile">
+        <MappingFragment StoreEntitySet="StudentProfile">
+          <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+          <ScalarProperty Name="First_Name" ColumnName="First Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last Name" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="District_Zone" ColumnName="District Zone" />
+          <ScalarProperty Name="School_Attending" ColumnName="School Attending" />
+          <ScalarProperty Name="Initial_Inquiry_Date" ColumnName="Initial Inquiry Date" />
+          <ScalarProperty Name="Assessment_Date" ColumnName="Assessment Date" />
+          <ScalarProperty Name="Report_Discussion_Date" ColumnName="Report Discussion Date" />
+          <ScalarProperty Name="Tutoring_Start_Date" ColumnName="Tutoring Start Date" />
+          <ScalarProperty Name="Tutoring_Stop_Date" ColumnName="Tutoring Stop Date" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="InitialNotes" ColumnName="InitialNotes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentSchools">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.StudentSchool">
+        <MappingFragment StoreEntitySet="StudentSchool">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="SchoolDist" ColumnName="SchoolDist" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="Prv_Pub" ColumnName="Prv_Pub" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Texts">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Text">
+        <MappingFragment StoreEntitySet="Text">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Source_Level" ColumnName="Source_Level" />
+          <ScalarProperty Name="Source" ColumnName="Source" />
+          <ScalarProperty Name="Start_Passage" ColumnName="Start_Passage" />
+          <ScalarProperty Name="Stop_Passage" ColumnName="Stop_Passage" />
+          <ScalarProperty Name="Index" ColumnName="Index" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Text_Reading">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Text_Reading">
+        <MappingFragment StoreEntitySet="Text_Reading">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VowelDigraphs">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.VowelDigraph">
+        <MappingFragment StoreEntitySet="VowelDigraphs">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="StudentNo" ColumnName="StudentNo" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="ie" ColumnName="ie" />
+          <ScalarProperty Name="oo" ColumnName="oo" />
+          <ScalarProperty Name="ue" ColumnName="ue" />
+          <ScalarProperty Name="ow" ColumnName="ow" />
+          <ScalarProperty Name="oy" ColumnName="oy" />
+          <ScalarProperty Name="ee" ColumnName="ee" />
+          <ScalarProperty Name="aw" ColumnName="aw" />
+          <ScalarProperty Name="Sum" ColumnName="Sum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Word_Reading">
+      <EntityTypeMapping TypeName="FamilyLiteracy.mdf.Word_Reading">
+        <MappingFragment StoreEntitySet="Word_Reading">
+          <ScalarProperty Name="Function" ColumnName="Function" />
+          <ScalarProperty Name="Test_Name" ColumnName="Test_Name" />
+          <ScalarProperty Name="Bottom_Standard_Score" ColumnName="Bottom_Standard_Score" />
+          <ScalarProperty Name="Top_Standard_Score" ColumnName="Top_Standard_Score" />
+          <ScalarProperty Name="Total_Items" ColumnName="Total_Items" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

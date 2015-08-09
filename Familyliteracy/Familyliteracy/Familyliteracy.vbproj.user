@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files (x86)\SAP BusinessObjects\Crystal Reports for .NET Framework 4.0\Common\SAP BusinessObjects Enterprise XI 4.0\win32_x86\dotnet\</ReferencePath>
+    <PublishUrlHistory>ftp://familyliteracy.net/publish/|\\TRI-1\IT-Support\Scheduler\Publish\|\\tri-1\publish\|ftp://familyliteracy.net/|Z:\</PublishUrlHistory>
+    <InstallUrlHistory>\\Tri-1\Data\StaffWorkspaces\workspace-KobieBackupFiles\Publish\|\\Tri-1\data\StaffWorkspaces\workspace-KobieBackupFiles\Publish\|\\tri-1\DATA\StaffWorkspaces\workspace-KobieBackupFiles\Publish\|\\Tri1\Publish\</InstallUrlHistory>
+    <SupportUrlHistory>http://www.cobysolutions.com</SupportUrlHistory>
+    <UpdateUrlHistory>http://familyliteracy.net/publish/|http://familyliteracy.net/Publish/|http://localhost/Familyliteracy/|\\Tri-1\data\StaffWorkspaces\workspace-KobieBackupFiles\Publish\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

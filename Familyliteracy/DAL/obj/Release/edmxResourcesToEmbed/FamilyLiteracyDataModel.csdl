@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FAMILYLITERACYModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="FAMILYLITERACYEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Assessments" EntityType="FAMILYLITERACYModel.Assessment" />
+    <EntitySet Name="BasicPhonics" EntityType="FAMILYLITERACYModel.BasicPhonic" />
+    <EntitySet Name="BasicVowels" EntityType="FAMILYLITERACYModel.BasicVowel" />
+    <EntitySet Name="Classrooms" EntityType="FAMILYLITERACYModel.Classroom" />
+    <EntitySet Name="Clinicians" EntityType="FAMILYLITERACYModel.Clinician" />
+    <EntitySet Name="Clinician_DailyOutSchedule" EntityType="FAMILYLITERACYModel.Clinician_DailyOutSchedule" />
+    <EntitySet Name="ConsonantDigraphs" EntityType="FAMILYLITERACYModel.ConsonantDigraph" />
+    <EntitySet Name="DefaultScheduleFileLocations" EntityType="FAMILYLITERACYModel.DefaultScheduleFileLocation" />
+    <EntitySet Name="GridViewColumnSizeAdjustments" EntityType="FAMILYLITERACYModel.GridViewColumnSizeAdjustment" />
+    <EntitySet Name="GuardianProfiles" EntityType="FAMILYLITERACYModel.GuardianProfile" />
+    <EntitySet Name="Languages" EntityType="FAMILYLITERACYModel.Language" />
+    <EntitySet Name="Lists" EntityType="FAMILYLITERACYModel.List" />
+    <EntitySet Name="MainSchedules" EntityType="FAMILYLITERACYModel.MainSchedule" />
+    <EntitySet Name="Memories" EntityType="FAMILYLITERACYModel.Memory" />
+    <EntitySet Name="Phonological_Awareness" EntityType="FAMILYLITERACYModel.Phonological_Awareness" />
+    <EntitySet Name="Rapid_Naming" EntityType="FAMILYLITERACYModel.Rapid_Naming" />
+    <EntitySet Name="ReadingSources" EntityType="FAMILYLITERACYModel.ReadingSource" />
+    <EntitySet Name="Spellings" EntityType="FAMILYLITERACYModel.Spelling" />
+    <EntitySet Name="Stud_Guard_Rel" EntityType="FAMILYLITERACYModel.Stud_Guard_Rel" />
+    <EntitySet Name="Student_Testing_Measurements" EntityType="FAMILYLITERACYModel.Student_Testing_Measurements" />
+    <EntitySet Name="StudentCurrentReadingLevels" EntityType="FAMILYLITERACYModel.StudentCurrentReadingLevel" />
+    <EntitySet Name="StudentHours" EntityType="FAMILYLITERACYModel.StudentHour" />
+    <EntitySet Name="StudentNotes" EntityType="FAMILYLITERACYModel.StudentNote" />
+    <EntitySet Name="StudentProfiles" EntityType="FAMILYLITERACYModel.StudentProfile" />
+    <EntitySet Name="StudentSchools" EntityType="FAMILYLITERACYModel.StudentSchool" />
+    <EntitySet Name="sysdiagrams" EntityType="FAMILYLITERACYModel.sysdiagram" />
+    <EntitySet Name="Texts" EntityType="FAMILYLITERACYModel.Text" />
+    <EntitySet Name="Text_Reading" EntityType="FAMILYLITERACYModel.Text_Reading" />
+    <EntitySet Name="VowelDigraphs" EntityType="FAMILYLITERACYModel.VowelDigraph" />
+    <EntitySet Name="Word_Reading" EntityType="FAMILYLITERACYModel.Word_Reading" />
+    <AssociationSet Name="FK_CBM_List_Source_Labels_List" Association="FAMILYLITERACYModel.FK_CBM_List_Source_Labels_List">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="List" EntitySet="Lists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Text_ReadingSources" Association="FAMILYLITERACYModel.FK_Text_ReadingSources">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="Text" EntitySet="Texts" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Assessment">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Group" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Function" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="Raw_Score" Type="Int32" />
+    <Property Name="Standard_Score" Type="Int32" />
+    <Property Name="Total_Items" Type="Int32" />
+    <Property Name="Operator" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="BasicPhonic">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="a" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="e" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="i" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="o" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="u" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="b" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="c" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+    <Property Name="d" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="f" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="g" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="h" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="j" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="k" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="l" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="m" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="n" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="p" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="q" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="r" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="s" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="t" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="v" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="w" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="y" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="z" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="BasicVowel">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="RecordDate" Type="DateTime" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="a" Type="Int32" />
+    <Property Name="e" Type="Int32" />
+    <Property Name="i" Type="Int32" />
+    <Property Name="o" Type="Int32" />
+    <Property Name="u" Type="Int32" />
+    <Property Name="VowelSum" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Classroom">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Transactionid" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Campus" Type="String" MaxLength="25" Unicode="true" FixedLength="false" />
+    <Property Name="Subject" Type="String" MaxLength="25" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Clinician">
+    <Key>
+      <PropertyRef Name="ClinicianId" />
+    </Key>
+    <Property Name="ClinicianId" Type="String" Nullable="false" MaxLength="5" Unicode="true" FixedLength="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" Unicode="true" FixedLength="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Cellular" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Alt_Phone" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="State" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="Zip" Type="String" MaxLength="15" Unicode="true" FixedLength="false" />
+    <Property Name="Inactive" Type="Boolean" Nullable="false" />
+    <Property Name="AutoSelect" Type="Boolean" />
+    <Property Name="ClinicianOrder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clinician_DailyOutSchedule">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClinicianId" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="TimeIn" Type="DateTime" />
+    <Property Name="TimeOut" Type="DateTime" />
+    <Property Name="Processing_Date" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="ConsonantDigraph">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="b" Type="Int32" />
+    <Property Name="c" Type="Int32" />
+    <Property Name="d" Type="Int32" />
+    <Property Name="f" Type="Int32" />
+    <Property Name="g" Type="Int32" />
+    <Property Name="h" Type="Int32" />
+    <Property Name="j" Type="Int32" />
+    <Property Name="k" Type="Int32" />
+    <Property Name="l" Type="Int32" />
+    <Property Name="m" Type="Int32" />
+    <Property Name="n" Type="Int32" />
+    <Property Name="p" Type="Int32" />
+    <Property Name="r" Type="Int32" />
+    <Property Name="s" Type="Int32" />
+    <Property Name="t" Type="Int32" />
+    <Property Name="v" Type="Int32" />
+    <Property Name="w" Type="Int32" />
+    <Property Name="x" Type="Int32" />
+    <Property Name="y" Type="Int32" />
+    <Property Name="z" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DefaultScheduleFileLocation">
+    <Key>
+      <PropertyRef Name="Index" />
+    </Key>
+    <Property Name="Index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Student_Schedule_Location" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Office_Schedule_Location" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="StorageDate" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="GridViewColumnSizeAdjustment">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FormReferenceNumber" Type="Int32" />
+    <Property Name="GridViewControlNumber" Type="Int32" />
+    <Property Name="GridViewColumnSize" Type="Int32" />
+  </EntityType>
+  <EntityType Name="GuardianProfile">
+    <Key>
+      <PropertyRef Name="GuardianID" />
+    </Key>
+    <Property Name="GuardianID" Type="Int32" Nullable="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="First_Name" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Guardian_Type" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Alt_Email" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="City" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="State" Type="String" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="Zip_Code" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Home_Phone" Type="String" MaxLength="30" Unicode="true" FixedLength="true" />
+    <Property Name="Cell_Phone" Type="String" MaxLength="30" Unicode="true" FixedLength="true" />
+    <Property Name="Work" Type="String" MaxLength="30" Unicode="true" FixedLength="true" />
+    <Property Name="Fax" Type="String" MaxLength="30" Unicode="true" FixedLength="true" />
+    <Property Name="Other" Type="String" MaxLength="30" Unicode="true" FixedLength="true" />
+    <Property Name="Billing" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="Source_Level" />
+    </Key>
+    <Property Name="Source_Level" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Source" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Minimum_Form_Level" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Maximum_Form_Level" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Index" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="FAMILYLITERACYModel.FK_CBM_List_Source_Labels_List" FromRole="List" ToRole="ReadingSources" />
+  </EntityType>
+  <EntityType Name="MainSchedule">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="Studentid" Type="Int32" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="TimeIn" Type="DateTime" />
+    <Property Name="Timeout" Type="DateTime" />
+    <Property Name="Clinicianid" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ClinicianSignature" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Status" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="RequestedDate" Type="DateTime" />
+    <Property Name="RequestedFashion" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Processingclinician" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Attendance" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Memory">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Phonological_Awareness">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+    <Property Name="Total_Items" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Rapid_Naming">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Top_Standard_Score" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="ReadingSource">
+    <Key>
+      <PropertyRef Name="Source" />
+    </Key>
+    <Property Name="Source" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Sourcetype" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Lists" Relationship="FAMILYLITERACYModel.FK_CBM_List_Source_Labels_List" FromRole="ReadingSources" ToRole="List" />
+    <NavigationProperty Name="Texts" Relationship="FAMILYLITERACYModel.FK_Text_ReadingSources" FromRole="ReadingSources" ToRole="Text" />
+  </EntityType>
+  <EntityType Name="Spelling">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+    <Property Name="Total_Items" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Stud_Guard_Rel">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentID" Type="Int32" />
+    <Property Name="GuardianID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Student_Testing_Measurements">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="Correct_Words_Each_Minute" Type="Int32" />
+    <Property Name="Errors" Type="Int32" />
+    <Property Name="Timed" Type="DateTime" />
+    <Property Name="Word_Count" Type="Int32" />
+    <Property Name="Test_Method" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Text_Source" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Reading_Level" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Passage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="StudentCurrentReadingLevel">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Reading_Level" Type="String" MaxLength="5" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="StudentHour">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Date" Type="DateTime" />
+    <Property Name="Hour_No" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StudentNote">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="RemarkDate" Type="DateTime" />
+    <Property Name="RemarkHeader" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Remark" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="StudentProfile">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="First_Name" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DOB" Type="DateTime" />
+    <Property Name="Gender" Type="String" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="District_Zone" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="School_Attending" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Initial_Inquiry_Date" Type="DateTime" />
+    <Property Name="Assessment_Date" Type="DateTime" />
+    <Property Name="Report_Discussion_Date" Type="DateTime" />
+    <Property Name="Tutoring_Start_Date" Type="DateTime" />
+    <Property Name="Tutoring_Stop_Date" Type="DateTime" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="InitialNotes" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="StudentSchool">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="SchoolDist" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="SchoolName" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Prv_Pub" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Level" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Source" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Start_Passage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Stop_Passage" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Index" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="FAMILYLITERACYModel.FK_Text_ReadingSources" FromRole="Text" ToRole="ReadingSources" />
+  </EntityType>
+  <EntityType Name="Text_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="VowelDigraph">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="sh" Type="Int32" />
+    <Property Name="ch" Type="Int32" />
+    <Property Name="th" Type="Int32" />
+    <Property Name="ck" Type="Int32" />
+    <Property Name="qu" Type="Int32" />
+    <Property Name="ce" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Word_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+    <Property Name="Total_Items" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_CBM_List_Source_Labels_List">
+    <End Role="ReadingSources" Type="FAMILYLITERACYModel.ReadingSource" Multiplicity="0..1" />
+    <End Role="List" Type="FAMILYLITERACYModel.List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Text_ReadingSources">
+    <End Role="ReadingSources" Type="FAMILYLITERACYModel.ReadingSource" Multiplicity="0..1" />
+    <End Role="Text" Type="FAMILYLITERACYModel.Text" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="Text">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,53 @@
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\BAL.Resources.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\bin\Release\BAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\bin\Release\BAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\bin\Release\BAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\bin\Release\DAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\bin\Release\DAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\bin\Release\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\BAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\BAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\BAL\obj\Release\BAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\bin\Release\BAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\bin\Release\BAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\bin\Release\BAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\bin\Release\DAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\bin\Release\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\bin\Release\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\BAL.Resources.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\BAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\BAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\BAL\obj\Release\BAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\BAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\BAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.vbproj.ResolveComReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\GenerateResource.read.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\GenerateResource.write.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\BAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\BAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\DAL.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\EntityFramework.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\DAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\DAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\bin\Release\EntityFramework.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.vbprojResolveAssemblyReference.cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.vbproj.ResolveComReference.cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.Resources.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.vbproj.GenerateResource.Cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\BAL\obj\Release\BAL.pdb

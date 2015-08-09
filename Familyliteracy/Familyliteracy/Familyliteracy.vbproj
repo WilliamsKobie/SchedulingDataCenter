@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3FCA1A5-B538-4651-BEF0-7F2AB9C92B3C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Familyliteracy.My.MyApplication</StartupObject>
+    <RootNamespace>Familyliteracy</RootNamespace>
+    <AssemblyName>Familyliteracy</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>ftp://familyliteracy.net/publish/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://familyliteracy.net/publish/</UpdateUrl>
+    <SupportUrl>http://www.cobysolutions.com</SupportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>Scheduler 2012</ProductName>
+    <PublisherName>Cobysolutions</PublisherName>
+    <MinimumRequiredVersion>2.0.0.5</MinimumRequiredVersion>
+    <WebPage>publish.htm</WebPage>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>47</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Familyliteracy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Optimize>false</Optimize>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>Full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Familyliteracy.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8183818D1C1F486D4A2A36D07056A6026293BBB3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Familyliteracy_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Familyliteracy_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sunbird.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\log4net.2.0.0\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.PowerPacks.Printing" />
+    <Import Include="Microsoft.VisualBasic.PowerPacks.Printing.Compatibility" />
+    <Import Include="Microsoft.VisualBasic.PowerPacks.Printing.Compatibility.VB6" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ExportProfileData\ExportProfileSelector.Designer.vb">
+      <DependentUpon>ExportProfileSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExportProfileData\ExportProfileSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportProfileData\ExportStudentProfile.Designer.vb">
+      <DependentUpon>ExportStudentProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExportProfileData\ExportStudentProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportProfileData\StudentNameSelection.vb" />
+    <Compile Include="ExportProfileData\StudentProfileAttributeSelection.vb" />
+    <Compile Include="IUpdateUserAttributes.vb" />
+    <Compile Include="Testing\CodeKnowledgeBlendingSegemting.Designer.vb">
+      <DependentUpon>CodeKnowledgeBlendingSegemting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\CodeKnowledgeBlendingSegemting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\Export\Export_CodeKnowledgeBlendingSegmenting.Designer.vb">
+      <DependentUpon>Export_CodeKnowledgeBlendingSegmenting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\Export\Export_CodeKnowledgeBlendingSegmenting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\Export\Export Assesment Test.Designer.vb">
+      <DependentUpon>Export Assesment Test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\Export\Export Assesment Test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\Export\Export Test Data.Designer.vb">
+      <DependentUpon>Export Test Data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\Export\Export Test Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\Export\InameSelector.vb" />
+    <Compile Include="Testing\Export\LoadingValues.Designer.vb">
+      <DependentUpon>LoadingValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\Export\LoadingValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\Export\StudentSelector.Designer.vb">
+      <DependentUpon>StudentSelector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\Export\StudentSelector.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\Export\StudentSelectorStructure.vb" />
+    <Compile Include="Testing\Export\TestingReport.Designer.vb">
+      <DependentUpon>TestingReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\Export\TestingReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\RepeatedTesting.Designer.vb">
+      <DependentUpon>RepeatedTesting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\RepeatedTesting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\SaveValues.Designer.vb">
+      <DependentUpon>SaveValues.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\SaveValues.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\TestingAssessments.Designer.vb">
+      <DependentUpon>TestingAssessments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\TestingAssessments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicianCalendar.Designer.vb">
+      <DependentUpon>ClinicianCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicianCalendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExportSchedule.Designer.vb">
+      <DependentUpon>ExportSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExportSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IScheduledHour.vb" />
+    <Compile Include="NewGuradian.Designer.vb">
+      <DependentUpon>NewGuradian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewGuradian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicianOff.Designer.vb">
+      <DependentUpon>ClinicianOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicianOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClinicianConsole.Designer.vb">
+      <DependentUpon>ClinicianConsole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClinicianConsole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditStudentProfile.Designer.vb">
+      <DependentUpon>EditStudentProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudentProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeDisplay.Designer.vb">
+      <DependentUpon>HomeDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomeDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditClinicianProfile.Designer.vb">
+      <DependentUpon>EditClinicianProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditClinicianProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditGuardianProfile.Designer.vb">
+      <DependentUpon>EditGuardianProfile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditGuardianProfile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro.Designer.vb">
+      <DependentUpon>Intro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NewClinician.Designer.vb">
+      <DependentUpon>NewClinician.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewClinician.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStudent.Designer.vb">
+      <DependentUpon>NewStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfficeSchedulePrintOut.Designer.vb">
+      <DependentUpon>OfficeSchedulePrintOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSchedulePrintOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RescheduleDailyDisplay.designer.vb">
+      <DependentUpon>RescheduleDailyDisplay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RescheduleDailyDisplay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SchedulingConsole.Designer.vb">
+      <DependentUpon>SchedulingConsole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SchedulingConsole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.vb">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentCalendar.Designer.vb">
+      <DependentUpon>StudentCalendar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentCalendar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentManager.Designer.vb">
+      <DependentUpon>StudentManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StudentManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Testing\ViewCodeKnowledgeBlendingSegmenting.Designer.vb">
+      <DependentUpon>ViewCodeKnowledgeBlendingSegmenting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\ViewCodeKnowledgeBlendingSegmenting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportProfileData\ExportProfileSelector.resx">
+      <DependentUpon>ExportProfileSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportProfileData\ExportStudentProfile.resx">
+      <DependentUpon>ExportStudentProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\CodeKnowledgeBlendingSegemting.resx">
+      <DependentUpon>CodeKnowledgeBlendingSegemting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\Export\Export_CodeKnowledgeBlendingSegmenting.resx">
+      <DependentUpon>Export_CodeKnowledgeBlendingSegmenting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\Export\Export Assesment Test.resx">
+      <DependentUpon>Export Assesment Test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\Export\Export Test Data.resx">
+      <DependentUpon>Export Test Data.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\Export\LoadingValues.resx">
+      <DependentUpon>LoadingValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\Export\StudentSelector.resx">
+      <DependentUpon>StudentSelector.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\Export\TestingReport.resx">
+      <DependentUpon>TestingReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\RepeatedTesting.resx">
+      <DependentUpon>RepeatedTesting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\SaveValues.resx">
+      <DependentUpon>SaveValues.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\TestingAssessments.resx">
+      <DependentUpon>TestingAssessments.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicianCalendar.resx">
+      <DependentUpon>ClinicianCalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExportSchedule.resx">
+      <DependentUpon>ExportSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGuradian.resx">
+      <DependentUpon>NewGuradian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicianOff.resx">
+      <DependentUpon>ClinicianOff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClinicianConsole.resx">
+      <DependentUpon>ClinicianConsole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditStudentProfile.resx">
+      <DependentUpon>EditStudentProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeDisplay.resx">
+      <DependentUpon>HomeDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditClinicianProfile.resx">
+      <DependentUpon>EditClinicianProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditGuardianProfile.resx">
+      <DependentUpon>EditGuardianProfile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intro.resx">
+      <DependentUpon>Intro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewClinician.resx">
+      <DependentUpon>NewClinician.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStudent.resx">
+      <DependentUpon>NewStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficeSchedulePrintOut.resx">
+      <DependentUpon>OfficeSchedulePrintOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RescheduleDailyDisplay.resx">
+      <DependentUpon>RescheduleDailyDisplay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SchedulingConsole.resx">
+      <DependentUpon>SchedulingConsole.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentCalendar.resx">
+      <DependentUpon>StudentCalendar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentManager.resx">
+      <DependentUpon>StudentManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Testing\ViewCodeKnowledgeBlendingSegmenting.resx">
+      <DependentUpon>ViewCodeKnowledgeBlendingSegmenting.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Familyliteracy_1_TemporaryKey.pfx" />
+    <None Include="Images\icon-calendar_45h.jpg" />
+    <None Include="Images\Schedule.jpg" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\BAL.ScheduleConfig.datasource" />
+    <None Include="My Project\DataSources\CachedCrystalReport1.datasource" />
+    <None Include="My Project\DataSources\CalenderReport.datasource" />
+    <None Include="My Project\DataSources\CrystalReport1.datasource" />
+    <None Include="My Project\DataSources\DailySchedule.datasource" />
+    <None Include="My Project\DataSources\DAL.FAMILYLITERACYEntities.datasource" />
+    <None Include="My Project\DataSources\DAL.ReadingSource.datasource" />
+    <None Include="My Project\DataSources\Familyliteracy.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\Familyliteracy.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\ReportViewer.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <None Include="scheduler.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BAL\BAL.vbproj">
+      <Project>{96E03ED8-A177-40A0-9536-F73E8F596912}</Project>
+      <Name>BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.vbproj">
+      <Project>{B807573C-8886-41D1-8A1E-C8992B4D758A}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\User Edit.jpg" />
+    <None Include="Images\arrow-resize-135-icon.png" />
+    <Content Include="Images\clinician.jpg" />
+    <Content Include="Images\Delete.jpg" />
+    <None Include="Images\sum.bmp" />
+    <Content Include="sunbird.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Testing\Import\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

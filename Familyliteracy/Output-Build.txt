@@ -1,0 +1,13 @@
+﻿------ Build started: Project: Familyliteracy, Configuration: Debug x86 ------
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\Testing\CodeKnowledgeBlendingSegemting.vb(527) : warning BC42104: Variable 'var_vdg' is used before it has been assigned a value. A null reference exception could result at runtime.
+  Familyliteracy -> C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+Building Familyliteracy...
+------ Publish started: Project: Familyliteracy, Configuration: Debug x86 ------
+  Familyliteracy -> C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\Familyliteracy\bin\Debug\Familyliteracy.exe
+Connecting to 'ftp://familyliteracy.net/publish/'...
+Publishing files...
+Publish success.
+Warning: Unable to view published application at ftp://familyliteracy.net/publish/.
+ftp://familyliteracy.net/publish/
+========== Build: 1 succeeded, 0 failed, 2 up-to-date, 0 skipped ==========
+========== Publish: 1 succeeded, 0 failed, 0 skipped ==========

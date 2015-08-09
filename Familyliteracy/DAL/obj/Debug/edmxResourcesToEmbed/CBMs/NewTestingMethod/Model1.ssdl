@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FAMILYLITERACYModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FAMILYLITERACYModelStoreContainer">
+    <EntitySet Name="List" EntityType="FAMILYLITERACYModel.Store.List" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReadingSources" EntityType="FAMILYLITERACYModel.Store.ReadingSources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Text" EntityType="FAMILYLITERACYModel.Store.Text" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_CBM_List_Source_Labels_List" Association="FAMILYLITERACYModel.Store.FK_CBM_List_Source_Labels_List">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="List" EntitySet="List" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="Source_Level" />
+    </Key>
+    <Property Name="Source_Level" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Source" Type="nvarchar" MaxLength="50" />
+    <Property Name="Minimum_Form_Level" Type="nvarchar" MaxLength="10" />
+    <Property Name="Maximum_Form_Level" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ReadingSources">
+    <Key>
+      <PropertyRef Name="Source" />
+    </Key>
+    <Property Name="Source" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Sourcetype" Type="nvarchar" MaxLength="10" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Level" Type="nvarchar" MaxLength="50" />
+    <Property Name="Source" Type="nvarchar" MaxLength="50" />
+    <Property Name="Start_Passage" Type="nvarchar" MaxLength="50" />
+    <Property Name="Stop_Passage" Type="nvarchar" MaxLength="50" />
+    <Property Name="Order" Type="int" />
+  </EntityType>
+  <Association Name="FK_CBM_List_Source_Labels_List">
+    <End Role="ReadingSources" Type="FAMILYLITERACYModel.Store.ReadingSources" Multiplicity="0..1" />
+    <End Role="List" Type="FAMILYLITERACYModel.Store.List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

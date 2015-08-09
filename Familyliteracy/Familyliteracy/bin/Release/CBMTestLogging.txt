@@ -1,0 +1,40 @@
+2013-02-26 20:33:59,497 [8] INFO  - 
+				[Familyliteracy] ------------------------------------------------------------------------------------------------------
+2013-02-26 20:33:59,508 [8] INFO  - 
+				[Familyliteracy] Deleted Test Record
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Operator: Bergman, Eldo
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Student Name: Anderson, Shawn
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Testing Date: Saturday, April 07, 2012
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Correct Words Per Minute: 83 cwpm
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Total Words: 84
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Total Time: 1:00
+2013-02-26 20:33:59,508 [8] DEBUG - 
+				[Familyliteracy] Errors: 1
+2013-02-26 20:33:59,508 [8] INFO  - 
+				[Familyliteracy] ------------------------------------------------------------------------------------------------------
+2013-02-26 20:34:21,626 [8] INFO  - 
+				[Familyliteracy] ------------------------------------------------------------------------------------------------------
+2013-02-26 20:34:21,626 [8] INFO  - 
+				[Familyliteracy] Deleted Test Record
+2013-02-26 20:34:21,626 [8] DEBUG - 
+				[Familyliteracy] Operator: Williams, Kobie
+2013-02-26 20:34:21,626 [8] DEBUG - 
+				[Familyliteracy] Student Name: Anderson, Shawn
+2013-02-26 20:34:21,627 [8] DEBUG - 
+				[Familyliteracy] Testing Date: Saturday, April 07, 2012
+2013-02-26 20:34:21,627 [8] DEBUG - 
+				[Familyliteracy] Correct Words Per Minute: 95 cwpm
+2013-02-26 20:34:21,627 [8] DEBUG - 
+				[Familyliteracy] Total Words: 96
+2013-02-26 20:34:21,627 [8] DEBUG - 
+				[Familyliteracy] Total Time: 1:00
+2013-02-26 20:34:21,627 [8] DEBUG - 
+				[Familyliteracy] Errors: 1
+2013-02-26 20:34:21,627 [8] INFO  - 
+				[Familyliteracy] ------------------------------------------------------------------------------------------------------

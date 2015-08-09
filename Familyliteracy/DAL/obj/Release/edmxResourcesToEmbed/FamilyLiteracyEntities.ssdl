@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FamilyLiteracy.mdf.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="FamilyLiteracymdfStoreContainer">
+    <EntitySet Name="AdvancedPhonics" EntityType="FamilyLiteracy.mdf.Store.AdvancedPhonics" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Assessments" EntityType="FamilyLiteracy.mdf.Store.Assessments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BeginningPhonics" EntityType="FamilyLiteracy.mdf.Store.BeginningPhonics" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Blending_2snd_Words" EntityType="FamilyLiteracy.mdf.Store.Blending_2snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Blending_3snd_Words" EntityType="FamilyLiteracy.mdf.Store.Blending_3snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Blending_4snd_Words" EntityType="FamilyLiteracy.mdf.Store.Blending_4snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Blending_5snd_Words" EntityType="FamilyLiteracy.mdf.Store.Blending_5snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Blending_Summation" EntityType="FamilyLiteracy.mdf.Store.Blending_Summation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Classroom" EntityType="FamilyLiteracy.mdf.Store.Classroom" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Clinician" EntityType="FamilyLiteracy.mdf.Store.Clinician" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Clinician_DailyOutSchedule" EntityType="FamilyLiteracy.mdf.Store.Clinician_DailyOutSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CodeKnowledge_Summations" EntityType="FamilyLiteracy.mdf.Store.CodeKnowledge_Summations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ConsonantDigraphs" EntityType="FamilyLiteracy.mdf.Store.ConsonantDigraphs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DefaultScheduleFileLocations" EntityType="FamilyLiteracy.mdf.Store.DefaultScheduleFileLocations" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GridViewColumnSizeAdjustment" EntityType="FamilyLiteracy.mdf.Store.GridViewColumnSizeAdjustment" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GuardianProfile" EntityType="FamilyLiteracy.mdf.Store.GuardianProfile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Language" EntityType="FamilyLiteracy.mdf.Store.Language" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="List" EntityType="FamilyLiteracy.mdf.Store.List" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MainSchedule" EntityType="FamilyLiteracy.mdf.Store.MainSchedule" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Memory" EntityType="FamilyLiteracy.mdf.Store.Memory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Phonological_Awareness" EntityType="FamilyLiteracy.mdf.Store.Phonological_Awareness" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rapid_Naming" EntityType="FamilyLiteracy.mdf.Store.Rapid_Naming" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ReadingSources" EntityType="FamilyLiteracy.mdf.Store.ReadingSources" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_2snd_NonWords" EntityType="FamilyLiteracy.mdf.Store.Segment_2snd_NonWords" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_2snd_Words" EntityType="FamilyLiteracy.mdf.Store.Segment_2snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_3snd_NonWords" EntityType="FamilyLiteracy.mdf.Store.Segment_3snd_NonWords" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_3snd_Words" EntityType="FamilyLiteracy.mdf.Store.Segment_3snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_4snd_NonWords" EntityType="FamilyLiteracy.mdf.Store.Segment_4snd_NonWords" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_4snd_Words" EntityType="FamilyLiteracy.mdf.Store.Segment_4snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segment_5snd_Words" EntityType="FamilyLiteracy.mdf.Store.Segment_5snd_Words" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Segmenting_Summation" EntityType="FamilyLiteracy.mdf.Store.Segmenting_Summation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Spelling" EntityType="FamilyLiteracy.mdf.Store.Spelling" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Stud_Guard_Rel" EntityType="FamilyLiteracy.mdf.Store.Stud_Guard_Rel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Student_Testing_Measurements" EntityType="FamilyLiteracy.mdf.Store.Student_Testing_Measurements" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentCurrentReadingLevel" EntityType="FamilyLiteracy.mdf.Store.StudentCurrentReadingLevel" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentHour" EntityType="FamilyLiteracy.mdf.Store.StudentHour" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentNote" EntityType="FamilyLiteracy.mdf.Store.StudentNote" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentProfile" EntityType="FamilyLiteracy.mdf.Store.StudentProfile" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentSchool" EntityType="FamilyLiteracy.mdf.Store.StudentSchool" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="FamilyLiteracy.mdf.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Text" EntityType="FamilyLiteracy.mdf.Store.Text" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Text_Reading" EntityType="FamilyLiteracy.mdf.Store.Text_Reading" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="VowelDigraphs" EntityType="FamilyLiteracy.mdf.Store.VowelDigraphs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Word_Reading" EntityType="FamilyLiteracy.mdf.Store.Word_Reading" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_AdvancedPhonics_VowelDigraphs1" Association="FamilyLiteracy.mdf.Store.FK_AdvancedPhonics_VowelDigraphs1">
+      <End Role="VowelDigraphs" EntitySet="VowelDigraphs" />
+      <End Role="AdvancedPhonics" EntitySet="AdvancedPhonics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_3snd_Words_Blending_2snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Blending_3snd_Words_Blending_2snd_Words">
+      <End Role="Blending_2snd_Words" EntitySet="Blending_2snd_Words" />
+      <End Role="Blending_3snd_Words" EntitySet="Blending_3snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_4snd_Words_Blending_3snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Blending_4snd_Words_Blending_3snd_Words">
+      <End Role="Blending_3snd_Words" EntitySet="Blending_3snd_Words" />
+      <End Role="Blending_4snd_Words" EntitySet="Blending_4snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_5snd_Words_Blending_4snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Blending_5snd_Words_Blending_4snd_Words">
+      <End Role="Blending_4snd_Words" EntitySet="Blending_4snd_Words" />
+      <End Role="Blending_5snd_Words" EntitySet="Blending_5snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_Summation_Blending_5snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Blending_Summation_Blending_5snd_Words">
+      <End Role="Blending_5snd_Words" EntitySet="Blending_5snd_Words" />
+      <End Role="Blending_Summation" EntitySet="Blending_Summation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CodeKnowledge_Summations_AdvancedPhonics1" Association="FamilyLiteracy.mdf.Store.FK_CodeKnowledge_Summations_AdvancedPhonics1">
+      <End Role="AdvancedPhonics" EntitySet="AdvancedPhonics" />
+      <End Role="CodeKnowledge_Summations" EntitySet="CodeKnowledge_Summations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsonantDigraphs_BeginningPhonics" Association="FamilyLiteracy.mdf.Store.FK_ConsonantDigraphs_BeginningPhonics">
+      <End Role="BeginningPhonics" EntitySet="BeginningPhonics" />
+      <End Role="ConsonantDigraphs" EntitySet="ConsonantDigraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_List_ReadingSources" Association="FamilyLiteracy.mdf.Store.FK_List_ReadingSources">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="List" EntitySet="List" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_2snd_NonWords_Segment_5snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Segment_2snd_NonWords_Segment_5snd_Words">
+      <End Role="Segment_5snd_Words" EntitySet="Segment_5snd_Words" />
+      <End Role="Segment_2snd_NonWords" EntitySet="Segment_2snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_3snd_NonWords_Segment_2snd_NonWords" Association="FamilyLiteracy.mdf.Store.FK_Segment_3snd_NonWords_Segment_2snd_NonWords">
+      <End Role="Segment_2snd_NonWords" EntitySet="Segment_2snd_NonWords" />
+      <End Role="Segment_3snd_NonWords" EntitySet="Segment_3snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_3snd_Words_Segment_2snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Segment_3snd_Words_Segment_2snd_Words">
+      <End Role="Segment_2snd_Words" EntitySet="Segment_2snd_Words" />
+      <End Role="Segment_3snd_Words" EntitySet="Segment_3snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_4snd_NonWords_Segment_3snd_NonWords" Association="FamilyLiteracy.mdf.Store.FK_Segment_4snd_NonWords_Segment_3snd_NonWords">
+      <End Role="Segment_3snd_NonWords" EntitySet="Segment_3snd_NonWords" />
+      <End Role="Segment_4snd_NonWords" EntitySet="Segment_4snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_4snd_Words_Segment_3snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Segment_4snd_Words_Segment_3snd_Words">
+      <End Role="Segment_3snd_Words" EntitySet="Segment_3snd_Words" />
+      <End Role="Segment_4snd_Words" EntitySet="Segment_4snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_5snd_Words_Segment_4snd_Words" Association="FamilyLiteracy.mdf.Store.FK_Segment_5snd_Words_Segment_4snd_Words">
+      <End Role="Segment_4snd_Words" EntitySet="Segment_4snd_Words" />
+      <End Role="Segment_5snd_Words" EntitySet="Segment_5snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segmenting_Summation_Segment_4snd_NonWords" Association="FamilyLiteracy.mdf.Store.FK_Segmenting_Summation_Segment_4snd_NonWords">
+      <End Role="Segment_4snd_NonWords" EntitySet="Segment_4snd_NonWords" />
+      <End Role="Segmenting_Summation" EntitySet="Segmenting_Summation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Text_ReadingSources" Association="FamilyLiteracy.mdf.Store.FK_Text_ReadingSources">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="Text" EntitySet="Text" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VowelDigraphs_ConsonantDigraphs" Association="FamilyLiteracy.mdf.Store.FK_VowelDigraphs_ConsonantDigraphs">
+      <End Role="ConsonantDigraphs" EntitySet="ConsonantDigraphs" />
+      <End Role="VowelDigraphs" EntitySet="VowelDigraphs" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="AdvancedPhonics">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="x" Type="nvarchar" MaxLength="5" />
+    <Property Name="ck" Type="nvarchar" MaxLength="5" />
+    <Property Name="ce" Type="nvarchar" MaxLength="5" />
+    <Property Name="ea" Type="nvarchar" MaxLength="5" />
+    <Property Name="oa" Type="nvarchar" MaxLength="5" />
+    <Property Name="ai" Type="nvarchar" MaxLength="5" />
+    <Property Name="oi" Type="nvarchar" MaxLength="5" />
+    <Property Name="ay" Type="nvarchar" MaxLength="5" />
+    <Property Name="ou" Type="nvarchar" MaxLength="5" />
+    <Property Name="ey" Type="nvarchar" MaxLength="5" />
+    <Property Name="au" Type="nvarchar" MaxLength="5" />
+    <Property Name="ew" Type="nvarchar" MaxLength="5" />
+    <Property Name="igh" Type="nvarchar" MaxLength="5" />
+    <Property Name="ui" Type="nvarchar" MaxLength="5" />
+    <Property Name="eigh" Type="nvarchar" MaxLength="5" />
+    <Property Name="var_vdg" Type="int" />
+  </EntityType>
+  <EntityType Name="Assessments">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="Group" Type="nvarchar" MaxLength="50" />
+    <Property Name="Function" Type="nvarchar" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="Raw_Score" Type="int" />
+    <Property Name="Standard_Score" Type="int" />
+    <Property Name="Total_Items" Type="int" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="BeginningPhonics">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="a" Type="nvarchar" MaxLength="5" />
+    <Property Name="e" Type="nvarchar" MaxLength="5" />
+    <Property Name="i" Type="nvarchar" MaxLength="5" />
+    <Property Name="o" Type="nvarchar" MaxLength="5" />
+    <Property Name="u" Type="nvarchar" MaxLength="5" />
+    <Property Name="b" Type="nvarchar" MaxLength="5" />
+    <Property Name="c" Type="nvarchar" MaxLength="5" />
+    <Property Name="d" Type="nvarchar" MaxLength="50" />
+    <Property Name="f" Type="nvarchar" MaxLength="50" />
+    <Property Name="g" Type="nvarchar" MaxLength="50" />
+    <Property Name="h" Type="nvarchar" MaxLength="50" />
+    <Property Name="j" Type="nvarchar" MaxLength="50" />
+    <Property Name="k" Type="nvarchar" MaxLength="50" />
+    <Property Name="l" Type="nvarchar" MaxLength="50" />
+    <Property Name="m" Type="nvarchar" MaxLength="50" />
+    <Property Name="n" Type="nvarchar" MaxLength="50" />
+    <Property Name="p" Type="nvarchar" MaxLength="50" />
+    <Property Name="r" Type="nvarchar" MaxLength="50" />
+    <Property Name="s" Type="nvarchar" MaxLength="50" />
+    <Property Name="t" Type="nvarchar" MaxLength="50" />
+    <Property Name="v" Type="nvarchar" MaxLength="50" />
+    <Property Name="w" Type="nvarchar" MaxLength="50" />
+    <Property Name="y" Type="nvarchar" MaxLength="50" />
+    <Property Name="z" Type="nvarchar" MaxLength="50" />
+    <Property Name="Sum" Type="int" />
+  </EntityType>
+  <EntityType Name="Blending_2snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="at" Type="nvarchar" MaxLength="10" />
+    <Property Name="shee" Type="nvarchar" MaxLength="10" />
+    <Property Name="may" Type="nvarchar" MaxLength="10" />
+    <Property Name="saw" Type="nvarchar" MaxLength="10" />
+    <Property Name="it" Type="nvarchar" MaxLength="10" />
+    <Property Name="fur" Type="nvarchar" MaxLength="10" />
+    <Property Name="Sum" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Blending_3snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="pig" Type="nvarchar" MaxLength="10" />
+    <Property Name="bug" Type="nvarchar" MaxLength="10" />
+    <Property Name="hat" Type="nvarchar" MaxLength="10" />
+    <Property Name="pin" Type="nvarchar" MaxLength="10" />
+    <Property Name="rat" Type="nvarchar" MaxLength="10" />
+    <Property Name="bird" Type="nvarchar" MaxLength="10" />
+    <Property Name="shell" Type="nvarchar" MaxLength="10" />
+    <Property Name="five" Type="nvarchar" MaxLength="10" />
+    <Property Name="boat" Type="nvarchar" MaxLength="10" />
+    <Property Name="Sum" Type="int" />
+  </EntityType>
+  <EntityType Name="Blending_4snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="frog" Type="nvarchar" MaxLength="10" />
+    <Property Name="grass" Type="nvarchar" MaxLength="10" />
+    <Property Name="stick" Type="nvarchar" MaxLength="10" />
+    <Property Name="jump" Type="nvarchar" MaxLength="10" />
+    <Property Name="under" Type="nvarchar" MaxLength="10" />
+    <Property Name="mist" Type="nvarchar" MaxLength="10" />
+    <Property Name="Sum" Type="int" />
+  </EntityType>
+  <EntityType Name="Blending_5snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="print" Type="nvarchar" MaxLength="10" />
+    <Property Name="crunch" Type="nvarchar" MaxLength="10" />
+    <Property Name="plant" Type="nvarchar" MaxLength="10" />
+    <Property Name="stamp" Type="nvarchar" MaxLength="10" />
+    <Property Name="street" Type="nvarchar" MaxLength="10" />
+    <Property Name="blast" Type="nvarchar" MaxLength="10" />
+    <Property Name="Sum" Type="int" />
+  </EntityType>
+  <EntityType Name="Blending_Summation">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="Two_Sound" Type="int" />
+    <Property Name="Three_Sound" Type="int" />
+    <Property Name="Four_Sound" Type="int" />
+    <Property Name="Five_Sound" Type="int" />
+    <Property Name="ClinicianName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Classroom">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Key" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Transactionid" Type="nvarchar" MaxLength="10" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="Campus" Type="nvarchar" MaxLength="25" />
+    <Property Name="Subject" Type="nvarchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Clinician">
+    <Key>
+      <PropertyRef Name="ClinicianId" />
+    </Key>
+    <Property Name="ClinicianId" Type="nchar" Nullable="false" MaxLength="5" />
+    <Property Name="LastName" Type="nchar" MaxLength="50" />
+    <Property Name="FirstName" Type="nchar" MaxLength="50" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Cellular" Type="nvarchar" MaxLength="20" />
+    <Property Name="Alt Phone" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="50" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="State" Type="nvarchar" MaxLength="4" />
+    <Property Name="Zip" Type="nvarchar" MaxLength="15" />
+    <Property Name="Inactive" Type="bit" Nullable="false" />
+    <Property Name="AutoSelect" Type="bit" />
+    <Property Name="ClinicianOrder" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clinician_DailyOutSchedule">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClinicianId" Type="nvarchar" MaxLength="10" />
+    <Property Name="Date" Type="date" />
+    <Property Name="TimeIn" Type="smalldatetime" />
+    <Property Name="TimeOut" Type="smalldatetime" />
+    <Property Name="Processing_Date" Type="datetime2" Precision="0" />
+  </EntityType>
+  <EntityType Name="CodeKnowledge_Summations">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" Nullable="false" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="Beginning_Phonics" Type="int" />
+    <Property Name="Consonant_Digraphs" Type="int" />
+    <Property Name="Vowel_Digraphs" Type="int" />
+    <Property Name="Basic_Phonics" Type="int" />
+    <Property Name="Advanced_Phonics" Type="int" />
+    <Property Name="oneltr_con" Type="int" />
+    <Property Name="sv" Type="int" />
+    <Property Name="con" Type="int" />
+    <Property Name="cdg" Type="int" />
+    <Property Name="ovdg" Type="int" />
+    <Property Name="var_vdg" Type="int" />
+    <Property Name="ClinicianName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ConsonantDigraphs">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="sh" Type="nvarchar" MaxLength="5" />
+    <Property Name="ch" Type="nvarchar" MaxLength="5" />
+    <Property Name="th" Type="nvarchar" MaxLength="5" />
+    <Property Name="qu" Type="nvarchar" MaxLength="5" />
+    <Property Name="Sum" Type="int" />
+  </EntityType>
+  <EntityType Name="DefaultScheduleFileLocations">
+    <Key>
+      <PropertyRef Name="Index" />
+    </Key>
+    <Property Name="Index" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Student_Schedule_Location" Type="nvarchar(max)" />
+    <Property Name="Office_Schedule_Location" Type="nvarchar(max)" />
+    <Property Name="StorageDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="GridViewColumnSizeAdjustment">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FormReferenceNumber" Type="int" />
+    <Property Name="GridViewControlNumber" Type="int" />
+    <Property Name="GridViewColumnSize" Type="int" />
+  </EntityType>
+  <EntityType Name="GuardianProfile">
+    <Key>
+      <PropertyRef Name="GuardianID" />
+    </Key>
+    <Property Name="GuardianID" Type="int" Nullable="false" />
+    <Property Name="Last Name" Type="varchar(max)" />
+    <Property Name="First Name" Type="varchar(max)" />
+    <Property Name="Guardian Type" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar(max)" />
+    <Property Name="Alt Email" Type="varchar(max)" />
+    <Property Name="Address" Type="varchar(max)" />
+    <Property Name="City" Type="varchar" MaxLength="50" />
+    <Property Name="State" Type="varchar" MaxLength="5" />
+    <Property Name="Zip Code" Type="varchar" MaxLength="20" />
+    <Property Name="Home Phone" Type="nchar" MaxLength="30" />
+    <Property Name="Cell Phone" Type="nchar" MaxLength="30" />
+    <Property Name="Work" Type="nchar" MaxLength="30" />
+    <Property Name="Fax" Type="nchar" MaxLength="30" />
+    <Property Name="Other" Type="nchar" MaxLength="30" />
+    <Property Name="Billing" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="int" />
+    <Property Name="Top_Standard_Score" Type="int" />
+  </EntityType>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="Source_Level" />
+    </Key>
+    <Property Name="Source_Level" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Source" Type="nvarchar" MaxLength="50" />
+    <Property Name="Minimum_Form_Level" Type="nvarchar" MaxLength="50" />
+    <Property Name="Maximum_Form_Level" Type="nvarchar" MaxLength="50" />
+    <Property Name="Index" Type="int" />
+  </EntityType>
+  <EntityType Name="MainSchedule">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Count" Type="int" />
+    <Property Name="Studentid" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="TimeIn" Type="smalldatetime" />
+    <Property Name="Timeout" Type="smalldatetime" />
+    <Property Name="Clinicianid" Type="nchar" MaxLength="10" />
+    <Property Name="ClinicianSignature" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar" MaxLength="50" />
+    <Property Name="RequestedDate" Type="smalldatetime" />
+    <Property Name="RequestedFashion" Type="nchar" MaxLength="10" />
+    <Property Name="Processingclinician" Type="nvarchar(max)" />
+    <Property Name="Attendance" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Memory">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="int" />
+    <Property Name="Top_Standard_Score" Type="int" />
+  </EntityType>
+  <EntityType Name="Phonological_Awareness">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="int" />
+    <Property Name="Top_Standard_Score" Type="int" />
+    <Property Name="Total_Items" Type="int" />
+  </EntityType>
+  <EntityType Name="Rapid_Naming">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="nvarchar" MaxLength="50" />
+    <Property Name="Top_Standard_Score" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ReadingSources">
+    <Key>
+      <PropertyRef Name="Source" />
+    </Key>
+    <Property Name="Source" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="SourceType" Type="nvarchar" MaxLength="50" />
+    <Property Name="Description" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Segment_2snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="ees" Type="nvarchar" MaxLength="10" />
+    <Property Name="ta" Type="nvarchar" MaxLength="10" />
+    <Property Name="koe" Type="nvarchar" MaxLength="10" />
+    <Property Name="ip" Type="nvarchar" MaxLength="10" />
+    <Property Name="ak" Type="nvarchar" MaxLength="10" />
+    <Property Name="aen" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segment_2snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="in" Type="nvarchar" MaxLength="10" />
+    <Property Name="it" Type="nvarchar" MaxLength="10" />
+    <Property Name="pie" Type="nvarchar" MaxLength="10" />
+    <Property Name="eat" Type="nvarchar" MaxLength="10" />
+    <Property Name="no" Type="nvarchar" MaxLength="10" />
+    <Property Name="lie" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segment_3snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" Nullable="false" />
+    <Property Name="date" Type="smalldatetime" />
+    <Property Name="pim" Type="nvarchar" MaxLength="10" />
+    <Property Name="mif" Type="nvarchar" MaxLength="10" />
+    <Property Name="sep" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segment_3snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="dog" Type="nvarchar" MaxLength="10" />
+    <Property Name="hat" Type="nvarchar" MaxLength="10" />
+    <Property Name="pin" Type="nvarchar" MaxLength="10" />
+    <Property Name="pot" Type="nvarchar" MaxLength="10" />
+    <Property Name="rat" Type="nvarchar" MaxLength="10" />
+    <Property Name="nut" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segment_4snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="flob" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="prif" Type="nvarchar" MaxLength="10" />
+    <Property Name="sept" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segment_4snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="frog" Type="nvarchar" MaxLength="10" />
+    <Property Name="black" Type="nvarchar" MaxLength="10" />
+    <Property Name="nest" Type="nvarchar" MaxLength="10" />
+    <Property Name="trip" Type="nvarchar" MaxLength="10" />
+    <Property Name="hand" Type="nvarchar" MaxLength="10" />
+    <Property Name="drum" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segment_5snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" Nullable="false" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="clasp" Type="nvarchar" MaxLength="10" />
+    <Property Name="stand" Type="nvarchar" MaxLength="10" />
+    <Property Name="thunder" Type="nvarchar" MaxLength="10" />
+    <Property Name="ground" Type="nvarchar" MaxLength="10" />
+    <Property Name="blest" Type="nvarchar" MaxLength="10" />
+    <Property Name="strive" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Segmenting_Summation">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="Two_Sound" Type="int" />
+    <Property Name="Three_Sound" Type="int" />
+    <Property Name="Four_Sound" Type="int" />
+    <Property Name="Five_Sound" Type="int" />
+    <Property Name="Two_snd_NonWord" Type="int" />
+    <Property Name="Three_snd_NonWord" Type="int" />
+    <Property Name="Four_snd_NonWord" Type="int" />
+    <Property Name="ClinicianName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Spelling">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="int" />
+    <Property Name="Top_Standard_Score" Type="int" />
+    <Property Name="Total_Items" Type="int" />
+  </EntityType>
+  <EntityType Name="Stud_Guard_Rel">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StudentID" Type="int" />
+    <Property Name="GuardianID" Type="int" />
+  </EntityType>
+  <EntityType Name="Student_Testing_Measurements">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Correct_Words_Each_Minute" Type="int" />
+    <Property Name="Errors" Type="int" />
+    <Property Name="Timed" Type="smalldatetime" />
+    <Property Name="Word_Count" Type="int" />
+    <Property Name="Test_Method" Type="nvarchar" MaxLength="50" />
+    <Property Name="Text_Source" Type="nvarchar" MaxLength="50" />
+    <Property Name="Reading_Level" Type="nvarchar" MaxLength="50" />
+    <Property Name="Passage" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="StudentCurrentReadingLevel">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="Reading Level" Type="nvarchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="StudentHour">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Date" Type="date" />
+    <Property Name="Hour_No" Type="int" />
+  </EntityType>
+  <EntityType Name="StudentNote">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="RemarkDate" Type="date" />
+    <Property Name="RemarkHeader" Type="nvarchar(max)" />
+    <Property Name="Remark" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="StudentProfile">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="First Name" Type="varchar(max)" />
+    <Property Name="Last Name" Type="varchar(max)" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="Gender" Type="varchar" MaxLength="25" />
+    <Property Name="District Zone" Type="varchar(max)" />
+    <Property Name="School Attending" Type="varchar(max)" />
+    <Property Name="Initial Inquiry Date" Type="date" />
+    <Property Name="Assessment Date" Type="date" />
+    <Property Name="Report Discussion Date" Type="date" />
+    <Property Name="Tutoring Start Date" Type="date" />
+    <Property Name="Tutoring Stop Date" Type="date" />
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="InitialNotes" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="StudentSchool">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="SchoolDist" Type="nvarchar(max)" />
+    <Property Name="SchoolName" Type="nvarchar(max)" />
+    <Property Name="Prv_Pub" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Source_Level" Type="nvarchar" MaxLength="50" />
+    <Property Name="Source" Type="nvarchar" MaxLength="50" />
+    <Property Name="Start_Passage" Type="nvarchar" MaxLength="50" />
+    <Property Name="Stop_Passage" Type="nvarchar" MaxLength="50" />
+    <Property Name="Index" Type="int" />
+  </EntityType>
+  <EntityType Name="Text_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="int" />
+    <Property Name="Top_Standard_Score" Type="int" />
+  </EntityType>
+  <EntityType Name="VowelDigraphs">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="int" Nullable="false" />
+    <Property Name="StudentNo" Type="int" />
+    <Property Name="Date" Type="smalldatetime" />
+    <Property Name="ie" Type="nvarchar" MaxLength="5" />
+    <Property Name="oo" Type="nvarchar" MaxLength="5" />
+    <Property Name="ue" Type="nvarchar" MaxLength="5" />
+    <Property Name="ow" Type="nvarchar" MaxLength="5" />
+    <Property Name="oy" Type="nvarchar" MaxLength="5" />
+    <Property Name="ee" Type="nvarchar" MaxLength="5" />
+    <Property Name="aw" Type="nvarchar" MaxLength="5" />
+    <Property Name="Sum" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Word_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Test_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Bottom_Standard_Score" Type="int" />
+    <Property Name="Top_Standard_Score" Type="int" />
+    <Property Name="Total_Items" Type="int" />
+  </EntityType>
+  <Association Name="FK_AdvancedPhonics_VowelDigraphs1">
+    <End Role="VowelDigraphs" Type="FamilyLiteracy.mdf.Store.VowelDigraphs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AdvancedPhonics" Type="FamilyLiteracy.mdf.Store.AdvancedPhonics" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="VowelDigraphs">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="AdvancedPhonics">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_3snd_Words_Blending_2snd_Words">
+    <End Role="Blending_2snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_2snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_3snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_3snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_2snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_4snd_Words_Blending_3snd_Words">
+    <End Role="Blending_3snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_3snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_4snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_4snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_5snd_Words_Blending_4snd_Words">
+    <End Role="Blending_4snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_4snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_5snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_5snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_Summation_Blending_5snd_Words">
+    <End Role="Blending_5snd_Words" Type="FamilyLiteracy.mdf.Store.Blending_5snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_Summation" Type="FamilyLiteracy.mdf.Store.Blending_Summation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_Summation">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CodeKnowledge_Summations_AdvancedPhonics1">
+    <End Role="AdvancedPhonics" Type="FamilyLiteracy.mdf.Store.AdvancedPhonics" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CodeKnowledge_Summations" Type="FamilyLiteracy.mdf.Store.CodeKnowledge_Summations" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="AdvancedPhonics">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="CodeKnowledge_Summations">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsonantDigraphs_BeginningPhonics">
+    <End Role="BeginningPhonics" Type="FamilyLiteracy.mdf.Store.BeginningPhonics" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ConsonantDigraphs" Type="FamilyLiteracy.mdf.Store.ConsonantDigraphs" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="BeginningPhonics">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="ConsonantDigraphs">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_List_ReadingSources">
+    <End Role="ReadingSources" Type="FamilyLiteracy.mdf.Store.ReadingSources" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="List" Type="FamilyLiteracy.mdf.Store.List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_2snd_NonWords_Segment_5snd_Words">
+    <End Role="Segment_5snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_5snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_2snd_NonWords" Type="FamilyLiteracy.mdf.Store.Segment_2snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_2snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_3snd_NonWords_Segment_2snd_NonWords">
+    <End Role="Segment_2snd_NonWords" Type="FamilyLiteracy.mdf.Store.Segment_2snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_3snd_NonWords" Type="FamilyLiteracy.mdf.Store.Segment_3snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_2snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_3snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_3snd_Words_Segment_2snd_Words">
+    <End Role="Segment_2snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_2snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_3snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_3snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_2snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_4snd_NonWords_Segment_3snd_NonWords">
+    <End Role="Segment_3snd_NonWords" Type="FamilyLiteracy.mdf.Store.Segment_3snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_4snd_NonWords" Type="FamilyLiteracy.mdf.Store.Segment_4snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_3snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_4snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_4snd_Words_Segment_3snd_Words">
+    <End Role="Segment_3snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_3snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_4snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_4snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_5snd_Words_Segment_4snd_Words">
+    <End Role="Segment_4snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_4snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_5snd_Words" Type="FamilyLiteracy.mdf.Store.Segment_5snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segmenting_Summation_Segment_4snd_NonWords">
+    <End Role="Segment_4snd_NonWords" Type="FamilyLiteracy.mdf.Store.Segment_4snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segmenting_Summation" Type="FamilyLiteracy.mdf.Store.Segmenting_Summation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_4snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segmenting_Summation">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Text_ReadingSources">
+    <End Role="ReadingSources" Type="FamilyLiteracy.mdf.Store.ReadingSources" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Text" Type="FamilyLiteracy.mdf.Store.Text" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="Text">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VowelDigraphs_ConsonantDigraphs">
+    <End Role="ConsonantDigraphs" Type="FamilyLiteracy.mdf.Store.ConsonantDigraphs" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VowelDigraphs" Type="FamilyLiteracy.mdf.Store.VowelDigraphs" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ConsonantDigraphs">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="VowelDigraphs">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

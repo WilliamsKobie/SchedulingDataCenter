@@ -1,0 +1,118 @@
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\DAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy- Copy\DAL\obj\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TriSchedule_BAK\Familyliteracy- Copy\DAL\obj\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Kobie\Desktop\Texas Reading Institute\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.0\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Kobie\Desktop\TexasReading Institute Scheduler  v2.1\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\FamilyliteracyBackup\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.dll.config
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Administrator.Ankaboot\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.dll.config
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.dll.config
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\Family Literacy Net\Desktop\Familyliteracy-v2.0\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\DAL.dll.config
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\EntityFramework.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\EntityFramework.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1 - Copy\Familyliteracy\DAL\obj\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\DAL.dll.config
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\DAL.pdb
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\EntityFramework.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\EntityFramework.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\obj\Debug\DAL.dll
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\obj\Debug\DAL.xml
+C:\Users\CobySolutions\Desktop\Familyliteracy-v2.1\Familyliteracy\DAL\obj\Debug\DAL.pdb

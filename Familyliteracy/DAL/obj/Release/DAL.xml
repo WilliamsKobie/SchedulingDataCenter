@@ -1,0 +1,2527 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DAL
+</name>
+</assembly>
+<members>
+<member name="M:DAL.FamilyLiteracyEntities.#ctor">
+	<summary>
+ Initializes a new FamilyLiteracyEntities object using the connection string found in the 'FamilyLiteracyEntities' section of the application configuration file.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.#ctor(System.String)">
+	<summary>
+ Initialize a new FamilyLiteracyEntities object.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialize a new FamilyLiteracyEntities object.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.AdvancedPhonics">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Assessments">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.BeginningPhonics">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Blending_2snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Blending_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Blending_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Blending_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Blending_Summation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Classrooms">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Clinicians">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Clinician_DailyOutSchedule">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.CodeKnowledge_Summations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.ConsonantDigraphs">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.DefaultScheduleFileLocations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.GridViewColumnSizeAdjustments">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.GuardianProfiles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Languages">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Lists">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.MainSchedules">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Memories">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Phonological_Awareness">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Rapid_Naming">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.ReadingSources">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_2snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_2snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_3snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_4snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segment_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Segmenting_Summation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Spellings">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Stud_Guard_Rel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Student_Testing_Measurements">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.StudentCurrentReadingLevels">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.StudentHours">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.StudentNotes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.StudentProfiles">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.StudentSchools">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.sysdiagrams">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Texts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Text_Reading">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.VowelDigraphs">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.FamilyLiteracyEntities.Word_Reading">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToAdvancedPhonics(DAL.AdvancedPhonic)">
+	<summary>
+ Deprecated Method for adding a new object to the AdvancedPhonics EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToAssessments(DAL.Assessment)">
+	<summary>
+ Deprecated Method for adding a new object to the Assessments EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToBeginningPhonics(DAL.BeginningPhonic)">
+	<summary>
+ Deprecated Method for adding a new object to the BeginningPhonics EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToBlending_2snd_Words(DAL.Blending_2snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Blending_2snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToBlending_3snd_Words(DAL.Blending_3snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Blending_3snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToBlending_4snd_Words(DAL.Blending_4snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Blending_4snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToBlending_5snd_Words(DAL.Blending_5snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Blending_5snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToBlending_Summation(DAL.Blending_Summation)">
+	<summary>
+ Deprecated Method for adding a new object to the Blending_Summation EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToClassrooms(DAL.Classroom)">
+	<summary>
+ Deprecated Method for adding a new object to the Classrooms EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToClinicians(DAL.Clinician)">
+	<summary>
+ Deprecated Method for adding a new object to the Clinicians EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToClinician_DailyOutSchedule(DAL.Clinician_DailyOutSchedule)">
+	<summary>
+ Deprecated Method for adding a new object to the Clinician_DailyOutSchedule EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToCodeKnowledge_Summations(DAL.CodeKnowledge_Summations)">
+	<summary>
+ Deprecated Method for adding a new object to the CodeKnowledge_Summations EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToConsonantDigraphs(DAL.ConsonantDigraph)">
+	<summary>
+ Deprecated Method for adding a new object to the ConsonantDigraphs EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToDefaultScheduleFileLocations(DAL.DefaultScheduleFileLocation)">
+	<summary>
+ Deprecated Method for adding a new object to the DefaultScheduleFileLocations EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToGridViewColumnSizeAdjustments(DAL.GridViewColumnSizeAdjustment)">
+	<summary>
+ Deprecated Method for adding a new object to the GridViewColumnSizeAdjustments EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToGuardianProfiles(DAL.GuardianProfile)">
+	<summary>
+ Deprecated Method for adding a new object to the GuardianProfiles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToLanguages(DAL.Language)">
+	<summary>
+ Deprecated Method for adding a new object to the Languages EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToLists(DAL.List)">
+	<summary>
+ Deprecated Method for adding a new object to the Lists EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToMainSchedules(DAL.MainSchedule)">
+	<summary>
+ Deprecated Method for adding a new object to the MainSchedules EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToMemories(DAL.Memory)">
+	<summary>
+ Deprecated Method for adding a new object to the Memories EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToPhonological_Awareness(DAL.Phonological_Awareness)">
+	<summary>
+ Deprecated Method for adding a new object to the Phonological_Awareness EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToRapid_Naming(DAL.Rapid_Naming)">
+	<summary>
+ Deprecated Method for adding a new object to the Rapid_Naming EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToReadingSources(DAL.ReadingSource)">
+	<summary>
+ Deprecated Method for adding a new object to the ReadingSources EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_2snd_NonWords(DAL.Segment_2snd_NonWords)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_2snd_NonWords EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_2snd_Words(DAL.Segment_2snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_2snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_3snd_NonWords(DAL.Segment_3snd_NonWords)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_3snd_NonWords EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_3snd_Words(DAL.Segment_3snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_3snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_4snd_NonWords(DAL.Segment_4snd_NonWords)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_4snd_NonWords EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_4snd_Words(DAL.Segment_4snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_4snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegment_5snd_Words(DAL.Segment_5snd_Words)">
+	<summary>
+ Deprecated Method for adding a new object to the Segment_5snd_Words EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSegmenting_Summation(DAL.Segmenting_Summation)">
+	<summary>
+ Deprecated Method for adding a new object to the Segmenting_Summation EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToSpellings(DAL.Spelling)">
+	<summary>
+ Deprecated Method for adding a new object to the Spellings EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStud_Guard_Rel(DAL.Stud_Guard_Rel)">
+	<summary>
+ Deprecated Method for adding a new object to the Stud_Guard_Rel EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStudent_Testing_Measurements(DAL.Student_Testing_Measurements)">
+	<summary>
+ Deprecated Method for adding a new object to the Student_Testing_Measurements EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStudentCurrentReadingLevels(DAL.StudentCurrentReadingLevel)">
+	<summary>
+ Deprecated Method for adding a new object to the StudentCurrentReadingLevels EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStudentHours(DAL.StudentHour)">
+	<summary>
+ Deprecated Method for adding a new object to the StudentHours EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStudentNotes(DAL.StudentNote)">
+	<summary>
+ Deprecated Method for adding a new object to the StudentNotes EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStudentProfiles(DAL.StudentProfile)">
+	<summary>
+ Deprecated Method for adding a new object to the StudentProfiles EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToStudentSchools(DAL.StudentSchool)">
+	<summary>
+ Deprecated Method for adding a new object to the StudentSchools EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddTosysdiagrams(DAL.sysdiagram)">
+	<summary>
+ Deprecated Method for adding a new object to the sysdiagrams EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToTexts(DAL.Text)">
+	<summary>
+ Deprecated Method for adding a new object to the Texts EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToText_Reading(DAL.Text_Reading)">
+	<summary>
+ Deprecated Method for adding a new object to the Text_Reading EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToVowelDigraphs(DAL.VowelDigraph)">
+	<summary>
+ Deprecated Method for adding a new object to the VowelDigraphs EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="M:DAL.FamilyLiteracyEntities.AddToWord_Reading(DAL.Word_Reading)">
+	<summary>
+ Deprecated Method for adding a new object to the Word_Reading EntitySet. Consider using the .Add method of the associated ObjectSet(Of T) property instead.
+ </summary>
+</member><member name="T:DAL.FamilyLiteracyEntities">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.AdvancedPhonic.CreateAdvancedPhonic(System.Int32)">
+	<summary>
+ Create a new AdvancedPhonic object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.AdvancedPhonic.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.x">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ck">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ce">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ea">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.oa">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ai">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.oi">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ay">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ou">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ey">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.au">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ew">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.igh">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.ui">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.eigh">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.var_vdg">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.VowelDigraph">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.VowelDigraphReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.CodeKnowledge_Summations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.AdvancedPhonic.CodeKnowledge_SummationsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.AdvancedPhonic">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Assessment.CreateAssessment(System.Int32)">
+	<summary>
+ Create a new Assessment object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Assessment.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Group">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Raw_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Total_Items">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Assessment.Operator">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Assessment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.BeginningPhonic.CreateBeginningPhonic(System.Int32)">
+	<summary>
+ Create a new BeginningPhonic object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.BeginningPhonic.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.a">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.e">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.i">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.o">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.u">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.b">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.c">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.d">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.f">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.g">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.h">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.j">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.k">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.l">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.m">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.n">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.p">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.r">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.s">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.t">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.v">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.w">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.y">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.z">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.ConsonantDigraph">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.BeginningPhonic.ConsonantDigraphReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.BeginningPhonic">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Blending_2snd_Words.CreateBlending_2snd_Words(System.Int32,System.Int32)">
+	<summary>
+ Create a new Blending_2snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+	<param name="sum">Initial value of the Sum property.</param>
+</member><member name="P:DAL.Blending_2snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.at">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.shee">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.may">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.saw">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.it">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.fur">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.Blending_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_2snd_Words.Blending_3snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Blending_2snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Blending_3snd_Words.CreateBlending_3snd_Words(System.Int32)">
+	<summary>
+ Create a new Blending_3snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Blending_3snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.pig">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.bug">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.hat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.pin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.rat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.bird">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.shell">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.five">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.boat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.Blending_2snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.Blending_2snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.Blending_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_3snd_Words.Blending_4snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Blending_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Blending_4snd_Words.CreateBlending_4snd_Words(System.Int32)">
+	<summary>
+ Create a new Blending_4snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Blending_4snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.frog">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.grass">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.stick">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.jump">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.under">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.mist">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.Blending_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.Blending_3snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.Blending_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_4snd_Words.Blending_5snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Blending_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Blending_5snd_Words.CreateBlending_5snd_Words(System.Int32)">
+	<summary>
+ Create a new Blending_5snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Blending_5snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.print">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.crunch">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.plant">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.stamp">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.street">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.blast">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.Blending_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.Blending_4snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.Blending_Summation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_5snd_Words.Blending_SummationReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Blending_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Blending_Summation.CreateBlending_Summation(System.Int32)">
+	<summary>
+ Create a new Blending_Summation object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Blending_Summation.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Two_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Three_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Four_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Five_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.ClinicianName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Blending_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Blending_Summation.Blending_5snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Blending_Summation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Classroom.CreateClassroom(System.Int32)">
+	<summary>
+ Create a new Classroom object.
+ </summary>
+	<param name="key">Initial value of the Key property.</param>
+</member><member name="P:DAL.Classroom.Key">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Classroom.Transactionid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Classroom.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Classroom.Campus">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Classroom.Subject">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Classroom">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Clinician.CreateClinician(System.String,System.Boolean,System.Int32)">
+	<summary>
+ Create a new Clinician object.
+ </summary>
+	<param name="clinicianId">Initial value of the ClinicianId property.</param>
+	<param name="inactive">Initial value of the Inactive property.</param>
+	<param name="clinicianOrder">Initial value of the ClinicianOrder property.</param>
+</member><member name="P:DAL.Clinician.ClinicianId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.LastName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.FirstName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Cellular">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Alt_Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Address">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.City">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.State">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Zip">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.Inactive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.AutoSelect">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician.ClinicianOrder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Clinician">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Clinician_DailyOutSchedule.CreateClinician_DailyOutSchedule(System.Int32)">
+	<summary>
+ Create a new Clinician_DailyOutSchedule object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Clinician_DailyOutSchedule.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician_DailyOutSchedule.ClinicianId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician_DailyOutSchedule.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician_DailyOutSchedule.TimeIn">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician_DailyOutSchedule.TimeOut">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Clinician_DailyOutSchedule.Processing_Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Clinician_DailyOutSchedule">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.CodeKnowledge_Summations.CreateCodeKnowledge_Summations(System.Int32,System.Int32)">
+	<summary>
+ Create a new CodeKnowledge_Summations object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+	<param name="studentNo">Initial value of the StudentNo property.</param>
+</member><member name="P:DAL.CodeKnowledge_Summations.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.Beginning_Phonics">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.Consonant_Digraphs">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.Vowel_Digraphs">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.Basic_Phonics">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.Advanced_Phonics">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.oneltr_con">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.sv">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.con">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.cdg">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.ovdg">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.var_vdg">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.ClinicianName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.AdvancedPhonic">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.CodeKnowledge_Summations.AdvancedPhonicReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.CodeKnowledge_Summations">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.ConsonantDigraph.CreateConsonantDigraph(System.Int32)">
+	<summary>
+ Create a new ConsonantDigraph object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.ConsonantDigraph.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.sh">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.ch">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.th">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.qu">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.BeginningPhonic">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.BeginningPhonicReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.VowelDigraph">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ConsonantDigraph.VowelDigraphReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.ConsonantDigraph">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.DefaultScheduleFileLocation.CreateDefaultScheduleFileLocation(System.Int32)">
+	<summary>
+ Create a new DefaultScheduleFileLocation object.
+ </summary>
+	<param name="index">Initial value of the Index property.</param>
+</member><member name="P:DAL.DefaultScheduleFileLocation.Index">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.DefaultScheduleFileLocation.Student_Schedule_Location">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.DefaultScheduleFileLocation.Office_Schedule_Location">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.DefaultScheduleFileLocation.StorageDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.DefaultScheduleFileLocation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.GridViewColumnSizeAdjustment.CreateGridViewColumnSizeAdjustment(System.Int32)">
+	<summary>
+ Create a new GridViewColumnSizeAdjustment object.
+ </summary>
+	<param name="index">Initial value of the index property.</param>
+</member><member name="P:DAL.GridViewColumnSizeAdjustment.index">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GridViewColumnSizeAdjustment.FormReferenceNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GridViewColumnSizeAdjustment.GridViewControlNumber">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GridViewColumnSizeAdjustment.GridViewColumnSize">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.GridViewColumnSizeAdjustment">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.GuardianProfile.CreateGuardianProfile(System.Int32)">
+	<summary>
+ Create a new GuardianProfile object.
+ </summary>
+	<param name="guardianID">Initial value of the GuardianID property.</param>
+</member><member name="P:DAL.GuardianProfile.GuardianID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Last_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.First_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Guardian_Type">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Alt_Email">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Address">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.City">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.State">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Zip_Code">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Home_Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Cell_Phone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Work">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Fax">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Other">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.GuardianProfile.Billing">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.GuardianProfile">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Language.CreateLanguage(System.String)">
+	<summary>
+ Create a new Language object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Language.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Language.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Language.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Language.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Language">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.List.CreateList(System.String)">
+	<summary>
+ Create a new List object.
+ </summary>
+	<param name="source_Level">Initial value of the Source_Level property.</param>
+</member><member name="P:DAL.List.Source_Level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.List.Source">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.List.Minimum_Form_Level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.List.Maximum_Form_Level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.List.Index">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.List.ReadingSource">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.List.ReadingSourceReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.List">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.MainSchedule.CreateMainSchedule(System.Int32)">
+	<summary>
+ Create a new MainSchedule object.
+ </summary>
+	<param name="key">Initial value of the key property.</param>
+</member><member name="P:DAL.MainSchedule.key">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Studentid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.TimeIn">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Timeout">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Clinicianid">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.ClinicianSignature">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Status">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.RequestedDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.RequestedFashion">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Processingclinician">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.MainSchedule.Attendance">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.MainSchedule">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Memory.CreateMemory(System.String)">
+	<summary>
+ Create a new Memory object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Memory.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Memory.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Memory.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Memory.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Memory">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Phonological_Awareness.CreatePhonological_Awareness(System.String)">
+	<summary>
+ Create a new Phonological_Awareness object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Phonological_Awareness.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Phonological_Awareness.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Phonological_Awareness.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Phonological_Awareness.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Phonological_Awareness.Total_Items">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Phonological_Awareness">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Rapid_Naming.CreateRapid_Naming(System.String)">
+	<summary>
+ Create a new Rapid_Naming object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Rapid_Naming.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Rapid_Naming.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Rapid_Naming.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Rapid_Naming.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Rapid_Naming">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.ReadingSource.CreateReadingSource(System.String)">
+	<summary>
+ Create a new ReadingSource object.
+ </summary>
+	<param name="source">Initial value of the Source property.</param>
+</member><member name="P:DAL.ReadingSource.Source">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ReadingSource.SourceType">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ReadingSource.Description">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ReadingSource.Lists">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.ReadingSource.Texts">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.ReadingSource">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_2snd_NonWords.CreateSegment_2snd_NonWords(System.Int32)">
+	<summary>
+ Create a new Segment_2snd_NonWords object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Segment_2snd_NonWords.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.ees">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.ta">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.koe">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.ip">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.ak">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.aen">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.Segment_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.Segment_5snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.Segment_3snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_NonWords.Segment_3snd_NonWordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_2snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_2snd_Words.CreateSegment_2snd_Words(System.Int32)">
+	<summary>
+ Create a new Segment_2snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Segment_2snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.in">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.it">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.pie">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.eat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.no">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.lie">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.Segment_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_2snd_Words.Segment_3snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_2snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_3snd_NonWords.CreateSegment_3snd_NonWords(System.Int32,System.Int32)">
+	<summary>
+ Create a new Segment_3snd_NonWords object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+	<param name="studentNo">Initial value of the StudentNo property.</param>
+</member><member name="P:DAL.Segment_3snd_NonWords.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.pim">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.mif">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.sep">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.Segment_2snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.Segment_2snd_NonWordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.Segment_4snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_NonWords.Segment_4snd_NonWordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_3snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_3snd_Words.CreateSegment_3snd_Words(System.Int32)">
+	<summary>
+ Create a new Segment_3snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Segment_3snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.dog">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.hat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.pin">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.pot">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.rat">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.nut">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.Segment_2snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.Segment_2snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.Segment_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_3snd_Words.Segment_4snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_4snd_NonWords.CreateSegment_4snd_NonWords(System.Int32,System.String)">
+	<summary>
+ Create a new Segment_4snd_NonWords object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+	<param name="flob">Initial value of the flob property.</param>
+</member><member name="P:DAL.Segment_4snd_NonWords.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.flob">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.prif">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.sept">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.Segment_3snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.Segment_3snd_NonWordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.Segmenting_Summation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_NonWords.Segmenting_SummationReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_4snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_4snd_Words.CreateSegment_4snd_Words(System.Int32)">
+	<summary>
+ Create a new Segment_4snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Segment_4snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.frog">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.black">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.nest">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.trip">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.hand">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.drum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.Segment_3snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.Segment_3snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.Segment_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_4snd_Words.Segment_5snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segment_5snd_Words.CreateSegment_5snd_Words(System.Int32,System.Int32)">
+	<summary>
+ Create a new Segment_5snd_Words object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+	<param name="studentNo">Initial value of the StudentNo property.</param>
+</member><member name="P:DAL.Segment_5snd_Words.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.clasp">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.stand">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.thunder">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.ground">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.blest">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.strive">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.Segment_2snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.Segment_2snd_NonWordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.Segment_4snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segment_5snd_Words.Segment_4snd_WordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segment_5snd_Words">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Segmenting_Summation.CreateSegmenting_Summation(System.Int32)">
+	<summary>
+ Create a new Segmenting_Summation object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Segmenting_Summation.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Two_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Three_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Four_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Five_Sound">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Two_snd_NonWord">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Three_snd_NonWord">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Four_snd_NonWord">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.ClinicianName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Segment_4snd_NonWords">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Segmenting_Summation.Segment_4snd_NonWordsReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Segmenting_Summation">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Spelling.CreateSpelling(System.String)">
+	<summary>
+ Create a new Spelling object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Spelling.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Spelling.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Spelling.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Spelling.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Spelling.Total_Items">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Spelling">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Stud_Guard_Rel.CreateStud_Guard_Rel(System.Int32)">
+	<summary>
+ Create a new Stud_Guard_Rel object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Stud_Guard_Rel.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Stud_Guard_Rel.StudentID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Stud_Guard_Rel.GuardianID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Stud_Guard_Rel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Student_Testing_Measurements.CreateStudent_Testing_Measurements(System.Int32)">
+	<summary>
+ Create a new Student_Testing_Measurements object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Student_Testing_Measurements.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Correct_Words_Each_Minute">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Errors">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Timed">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Word_Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Test_Method">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Text_Source">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Reading_Level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Student_Testing_Measurements.Passage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Student_Testing_Measurements">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.StudentCurrentReadingLevel.CreateStudentCurrentReadingLevel(System.Int32)">
+	<summary>
+ Create a new StudentCurrentReadingLevel object.
+ </summary>
+	<param name="key">Initial value of the key property.</param>
+</member><member name="P:DAL.StudentCurrentReadingLevel.key">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentCurrentReadingLevel.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentCurrentReadingLevel.Reading_Level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.StudentCurrentReadingLevel">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.StudentHour.CreateStudentHour(System.String)">
+	<summary>
+ Create a new StudentHour object.
+ </summary>
+	<param name="studentId">Initial value of the StudentId property.</param>
+</member><member name="P:DAL.StudentHour.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentHour.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentHour.Hour_No">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.StudentHour">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.StudentNote.CreateStudentNote(System.Int32)">
+	<summary>
+ Create a new StudentNote object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.StudentNote.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentNote.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentNote.RemarkDate">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentNote.RemarkHeader">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentNote.Remark">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.StudentNote">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.StudentProfile.CreateStudentProfile(System.Int32,System.Boolean)">
+	<summary>
+ Create a new StudentProfile object.
+ </summary>
+	<param name="studentID">Initial value of the StudentID property.</param>
+	<param name="active">Initial value of the Active property.</param>
+</member><member name="P:DAL.StudentProfile.StudentID">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.First_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Last_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.DOB">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Gender">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.District_Zone">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.School_Attending">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Initial_Inquiry_Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Assessment_Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Report_Discussion_Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Tutoring_Start_Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Tutoring_Stop_Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.Active">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentProfile.InitialNotes">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.StudentProfile">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.StudentSchool.CreateStudentSchool(System.Int32,System.Boolean)">
+	<summary>
+ Create a new StudentSchool object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+	<param name="prv_Pub">Initial value of the Prv_Pub property.</param>
+</member><member name="P:DAL.StudentSchool.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentSchool.StudentId">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentSchool.SchoolDist">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentSchool.SchoolName">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.StudentSchool.Prv_Pub">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.StudentSchool">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.sysdiagram.Createsysdiagram(System.String,System.Int32,System.Int32)">
+	<summary>
+ Create a new sysdiagram object.
+ </summary>
+	<param name="name">Initial value of the name property.</param>
+	<param name="principal_id">Initial value of the principal_id property.</param>
+	<param name="diagram_id">Initial value of the diagram_id property.</param>
+</member><member name="P:DAL.sysdiagram.name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.sysdiagram.principal_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.sysdiagram.diagram_id">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.sysdiagram.version">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.sysdiagram.definition">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.sysdiagram">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Text.CreateText(System.Int32)">
+	<summary>
+ Create a new Text object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.Text.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.Source_Level">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.Source">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.Start_Passage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.Stop_Passage">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.Index">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.ReadingSource">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text.ReadingSourceReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Text">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Text_Reading.CreateText_Reading(System.String)">
+	<summary>
+ Create a new Text_Reading object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Text_Reading.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text_Reading.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text_Reading.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Text_Reading.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Text_Reading">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.VowelDigraph.CreateVowelDigraph(System.Int32)">
+	<summary>
+ Create a new VowelDigraph object.
+ </summary>
+	<param name="count">Initial value of the Count property.</param>
+</member><member name="P:DAL.VowelDigraph.Count">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.StudentNo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.Date">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.ie">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.oo">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.ue">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.ow">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.oy">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.ee">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.aw">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.Sum">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.AdvancedPhonic">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.AdvancedPhonicReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.ConsonantDigraph">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.VowelDigraph.ConsonantDigraphReference">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.VowelDigraph">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="M:DAL.Word_Reading.CreateWord_Reading(System.String)">
+	<summary>
+ Create a new Word_Reading object.
+ </summary>
+	<param name="function">Initial value of the Function property.</param>
+</member><member name="P:DAL.Word_Reading.Function">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Word_Reading.Test_Name">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Word_Reading.Bottom_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Word_Reading.Top_Standard_Score">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.Word_Reading.Total_Items">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="T:DAL.Word_Reading">
+	<summary>
+ No Metadata Documentation available.
+ </summary>
+</member><member name="P:DAL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DAL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DAL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

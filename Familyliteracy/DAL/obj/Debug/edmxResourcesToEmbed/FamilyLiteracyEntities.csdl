@@ -1,0 +1,1087 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FamilyLiteracyModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityType Name="AdvancedPhonic">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="x" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ck" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ce" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ea" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oa" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ai" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oi" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ay" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ou" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ey" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="au" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="ew" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="igh" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ui" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="eigh" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="var_vdg" Type="Int32" />
+    <NavigationProperty Name="VowelDigraph" Relationship="Self.FK_AdvancedPhonics_VowelDigraphs1" FromRole="AdvancedPhonics" ToRole="VowelDigraphs" />
+    <NavigationProperty Name="CodeKnowledge_Summations" Relationship="Self.FK_CodeKnowledge_Summations_AdvancedPhonics1" FromRole="AdvancedPhonics" ToRole="CodeKnowledge_Summations" />
+  </EntityType>
+  <EntityType Name="BeginningPhonic">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="a" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="e" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="i" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="o" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="u" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="b" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="c" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="d" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="f" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="g" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="h" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="j" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="k" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="l" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="m" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="n" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="p" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="r" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="s" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="t" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="v" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="w" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="y" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="z" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="ConsonantDigraph" Relationship="Self.FK_ConsonantDigraphs_BeginningPhonics" FromRole="BeginningPhonics" ToRole="ConsonantDigraphs" />
+  </EntityType>
+  <EntityType Name="Blending_2snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="at" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="shee" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="may" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="saw" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="it" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fur" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_3snd_Words" Relationship="Self.FK_Blending_3snd_Words_Blending_2snd_Words" FromRole="Blending_2snd_Words" ToRole="Blending_3snd_Words" />
+  </EntityType>
+  <EntityType Name="Blending_3snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="pig" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="bug" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="hat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pin" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="rat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="bird" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="shell" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="five" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="boat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_2snd_Words" Relationship="Self.FK_Blending_3snd_Words_Blending_2snd_Words" FromRole="Blending_3snd_Words" ToRole="Blending_2snd_Words" />
+    <NavigationProperty Name="Blending_4snd_Words" Relationship="Self.FK_Blending_4snd_Words_Blending_3snd_Words" FromRole="Blending_3snd_Words" ToRole="Blending_4snd_Words" />
+  </EntityType>
+  <EntityType Name="Blending_4snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="frog" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="grass" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stick" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="jump" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="under" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mist" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_3snd_Words" Relationship="Self.FK_Blending_4snd_Words_Blending_3snd_Words" FromRole="Blending_4snd_Words" ToRole="Blending_3snd_Words" />
+    <NavigationProperty Name="Blending_5snd_Words" Relationship="Self.FK_Blending_5snd_Words_Blending_4snd_Words" FromRole="Blending_4snd_Words" ToRole="Blending_5snd_Words" />
+  </EntityType>
+  <EntityType Name="Blending_5snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="print" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="crunch" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="plant" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stamp" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="street" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="blast" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_4snd_Words" Relationship="Self.FK_Blending_5snd_Words_Blending_4snd_Words" FromRole="Blending_5snd_Words" ToRole="Blending_4snd_Words" />
+    <NavigationProperty Name="Blending_Summation" Relationship="Self.FK_Blending_Summation_Blending_5snd_Words" FromRole="Blending_5snd_Words" ToRole="Blending_Summation" />
+  </EntityType>
+  <EntityType Name="Blending_Summation">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Two_Sound" Type="Int32" />
+    <Property Name="Three_Sound" Type="Int32" />
+    <Property Name="Four_Sound" Type="Int32" />
+    <Property Name="Five_Sound" Type="Int32" />
+    <Property Name="ClinicianName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Blending_5snd_Words" Relationship="Self.FK_Blending_Summation_Blending_5snd_Words" FromRole="Blending_Summation" ToRole="Blending_5snd_Words" />
+  </EntityType>
+  <EntityType Name="Classroom">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Transactionid" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Campus" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Clinician">
+    <Key>
+      <PropertyRef Name="ClinicianId" />
+    </Key>
+    <Property Name="ClinicianId" Type="String" MaxLength="5" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Cellular" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Alt_Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="Zip" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Inactive" Type="Boolean" Nullable="false" />
+    <Property Name="AutoSelect" Type="Boolean" />
+    <Property Name="ClinicianOrder" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Clinician_DailyOutSchedule">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="ClinicianId" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="TimeIn" Type="DateTime" Precision="0" />
+    <Property Name="TimeOut" Type="DateTime" Precision="0" />
+    <Property Name="Processing_Date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="CodeKnowledge_Summations">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Beginning_Phonics" Type="Int32" />
+    <Property Name="Consonant_Digraphs" Type="Int32" />
+    <Property Name="Vowel_Digraphs" Type="Int32" />
+    <Property Name="Basic_Phonics" Type="Int32" />
+    <Property Name="Advanced_Phonics" Type="Int32" />
+    <Property Name="oneltr_con" Type="Int32" />
+    <Property Name="sv" Type="Int32" />
+    <Property Name="con" Type="Int32" />
+    <Property Name="cdg" Type="Int32" />
+    <Property Name="ovdg" Type="Int32" />
+    <Property Name="var_vdg" Type="Int32" />
+    <Property Name="ClinicianName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="AdvancedPhonic" Relationship="Self.FK_CodeKnowledge_Summations_AdvancedPhonics1" FromRole="CodeKnowledge_Summations" ToRole="AdvancedPhonics" />
+  </EntityType>
+  <EntityType Name="ConsonantDigraph">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="sh" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ch" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="th" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="qu" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="BeginningPhonic" Relationship="Self.FK_ConsonantDigraphs_BeginningPhonics" FromRole="ConsonantDigraphs" ToRole="BeginningPhonics" />
+    <NavigationProperty Name="VowelDigraph" Relationship="Self.FK_VowelDigraphs_ConsonantDigraphs" FromRole="ConsonantDigraphs" ToRole="VowelDigraphs" />
+  </EntityType>
+  <EntityType Name="DefaultScheduleFileLocation">
+    <Key>
+      <PropertyRef Name="Index" />
+    </Key>
+    <Property Name="Index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Student_Schedule_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Office_Schedule_Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="StorageDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="GridViewColumnSizeAdjustment">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="FormReferenceNumber" Type="Int32" />
+    <Property Name="GridViewControlNumber" Type="Int32" />
+    <Property Name="GridViewColumnSize" Type="Int32" />
+  </EntityType>
+  <EntityType Name="GuardianProfile">
+    <Key>
+      <PropertyRef Name="GuardianID" />
+    </Key>
+    <Property Name="GuardianID" Type="Int32" Nullable="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="First_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Guardian_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Alt_Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="City" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="State" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Zip_Code" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Home_Phone" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Cell_Phone" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Work" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Fax" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Other" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="Billing" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Language_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="List">
+    <Key>
+      <PropertyRef Name="Source_Level" />
+    </Key>
+    <Property Name="Source_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Minimum_Form_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Maximum_Form_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Index" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="Self.FK_List_ReadingSources" FromRole="List" ToRole="ReadingSources" />
+  </EntityType>
+  <EntityType Name="MainSchedule">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Count" Type="Int32" />
+    <Property Name="Studentid" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="TimeIn" Type="DateTime" Precision="0" />
+    <Property Name="Timeout" Type="DateTime" Precision="0" />
+    <Property Name="Clinicianid" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="ClinicianSignature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="RequestedDate" Type="DateTime" Precision="0" />
+    <Property Name="RequestedFashion" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Processingclinician" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Attendance" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Memory">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Memory_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Phonological_Awareness">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Phonological_Awareness_Tests">
+    <Key>
+      <PropertyRef Name="Index" />
+    </Key>
+    <Property Name="Index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Rapid_Naming">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rapid_Naming_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ReadingSource">
+    <Key>
+      <PropertyRef Name="Source" />
+    </Key>
+    <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SourceType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Lists" Relationship="Self.FK_List_ReadingSources" FromRole="ReadingSources" ToRole="List" />
+    <NavigationProperty Name="Texts" Relationship="Self.FK_Text_ReadingSources" FromRole="ReadingSources" ToRole="Text" />
+  </EntityType>
+  <EntityType Name="Segment_2snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="ees" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ta" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="koe" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ip" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ak" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="aen" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_5snd_Words" Relationship="Self.FK_Segment_2snd_NonWords_Segment_5snd_Words" FromRole="Segment_2snd_NonWords" ToRole="Segment_5snd_Words" />
+    <NavigationProperty Name="Segment_3snd_NonWords" Relationship="Self.FK_Segment_3snd_NonWords_Segment_2snd_NonWords" FromRole="Segment_2snd_NonWords" ToRole="Segment_3snd_NonWords" />
+  </EntityType>
+  <EntityType Name="Segment_2snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="in" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="it" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pie" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="eat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="no" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="lie" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_3snd_Words" Relationship="Self.FK_Segment_3snd_Words_Segment_2snd_Words" FromRole="Segment_2snd_Words" ToRole="Segment_3snd_Words" />
+  </EntityType>
+  <EntityType Name="Segment_3snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" Nullable="false" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="pim" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="mif" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="sep" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_2snd_NonWords" Relationship="Self.FK_Segment_3snd_NonWords_Segment_2snd_NonWords" FromRole="Segment_3snd_NonWords" ToRole="Segment_2snd_NonWords" />
+    <NavigationProperty Name="Segment_4snd_NonWords" Relationship="Self.FK_Segment_4snd_NonWords_Segment_3snd_NonWords" FromRole="Segment_3snd_NonWords" ToRole="Segment_4snd_NonWords" />
+  </EntityType>
+  <EntityType Name="Segment_3snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="dog" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="hat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pin" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="pot" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="rat" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="nut" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_2snd_Words" Relationship="Self.FK_Segment_3snd_Words_Segment_2snd_Words" FromRole="Segment_3snd_Words" ToRole="Segment_2snd_Words" />
+    <NavigationProperty Name="Segment_4snd_Words" Relationship="Self.FK_Segment_4snd_Words_Segment_3snd_Words" FromRole="Segment_3snd_Words" ToRole="Segment_4snd_Words" />
+  </EntityType>
+  <EntityType Name="Segment_4snd_NonWords">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="flob" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="prif" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="sept" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_3snd_NonWords" Relationship="Self.FK_Segment_4snd_NonWords_Segment_3snd_NonWords" FromRole="Segment_4snd_NonWords" ToRole="Segment_3snd_NonWords" />
+    <NavigationProperty Name="Segmenting_Summation" Relationship="Self.FK_Segmenting_Summation_Segment_4snd_NonWords" FromRole="Segment_4snd_NonWords" ToRole="Segmenting_Summation" />
+  </EntityType>
+  <EntityType Name="Segment_4snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="frog" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="black" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="nest" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="trip" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="hand" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="drum" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_3snd_Words" Relationship="Self.FK_Segment_4snd_Words_Segment_3snd_Words" FromRole="Segment_4snd_Words" ToRole="Segment_3snd_Words" />
+    <NavigationProperty Name="Segment_5snd_Words" Relationship="Self.FK_Segment_5snd_Words_Segment_4snd_Words" FromRole="Segment_4snd_Words" ToRole="Segment_5snd_Words" />
+  </EntityType>
+  <EntityType Name="Segment_5snd_Words">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="clasp" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="stand" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="thunder" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="ground" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="blest" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="strive" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_2snd_NonWords" Relationship="Self.FK_Segment_2snd_NonWords_Segment_5snd_Words" FromRole="Segment_5snd_Words" ToRole="Segment_2snd_NonWords" />
+    <NavigationProperty Name="Segment_4snd_Words" Relationship="Self.FK_Segment_5snd_Words_Segment_4snd_Words" FromRole="Segment_5snd_Words" ToRole="Segment_4snd_Words" />
+  </EntityType>
+  <EntityType Name="Segmenting_Summation">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Two_Sound" Type="Int32" />
+    <Property Name="Three_Sound" Type="Int32" />
+    <Property Name="Four_Sound" Type="Int32" />
+    <Property Name="Five_Sound" Type="Int32" />
+    <Property Name="Two_snd_NonWord" Type="Int32" />
+    <Property Name="Three_snd_NonWord" Type="Int32" />
+    <Property Name="Four_snd_NonWord" Type="Int32" />
+    <Property Name="ClinicianName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sum" Type="Int32" />
+    <NavigationProperty Name="Segment_4snd_NonWords" Relationship="Self.FK_Segmenting_Summation_Segment_4snd_NonWords" FromRole="Segmenting_Summation" ToRole="Segment_4snd_NonWords" />
+  </EntityType>
+  <EntityType Name="Spelling">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Spelling_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Stud_Guard_Rel">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="StudentID" Type="Int32" />
+    <Property Name="GuardianID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StudentCurrentReadingLevel">
+    <Key>
+      <PropertyRef Name="key" />
+    </Key>
+    <Property Name="key" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Reading_Level" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Hour_Number" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StudentHour">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Hour_No" Type="Int32" />
+    <Property Name="ReadingLevel" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Campus" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="InitialDate" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="FinalDate" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Zip_Code" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Student" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Parent_First_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Parent_Last_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_3" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Email_" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="State" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentNote">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="RemarkDate" Type="DateTime" Precision="0" />
+    <Property Name="RemarkHeader" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Remark" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="StudentProfile">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" />
+    <Property Name="First_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Last_Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="Gender" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="District_Zone" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="School_Attending" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Initial_Inquiry_Date" Type="DateTime" Precision="0" />
+    <Property Name="Assessment_Date" Type="DateTime" Precision="0" />
+    <Property Name="Report_Discussion_Date" Type="DateTime" Precision="0" />
+    <Property Name="Tutoring_Start_Date" Type="DateTime" Precision="0" />
+    <Property Name="Tutoring_Stop_Date" Type="DateTime" Precision="0" />
+    <Property Name="Active" Type="Boolean" Nullable="false" />
+    <Property Name="InitialNotes" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Assessments" Relationship="FamilyLiteracyModel.FK_Assessments_StudentProfile" FromRole="StudentProfile" ToRole="Assessment" />
+  </EntityType>
+  <EntityType Name="StudentSchool">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="SchoolDist" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="SchoolName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Prv_Pub" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Text">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Source_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Start_Passage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Stop_Passage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Index" Type="Int32" />
+    <NavigationProperty Name="ReadingSource" Relationship="Self.FK_Text_ReadingSources" FromRole="Text" ToRole="ReadingSources" />
+  </EntityType>
+  <EntityType Name="Text_Reading_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="VowelDigraph">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" />
+    <Property Name="StudentNo" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="ie" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oo" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ue" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ow" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="oy" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="ee" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="aw" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="AdvancedPhonic" Relationship="Self.FK_AdvancedPhonics_VowelDigraphs1" FromRole="VowelDigraphs" ToRole="AdvancedPhonics" />
+    <NavigationProperty Name="ConsonantDigraph" Relationship="Self.FK_VowelDigraphs_ConsonantDigraphs" FromRole="VowelDigraphs" ToRole="ConsonantDigraphs" />
+  </EntityType>
+  <EntityType Name="Word_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="55" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Word_Reading_Tests">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Name="Function" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="Bottom_Standard_Score" Type="Int32" />
+    <Property Name="Top_Standard_Score" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StandardScore_ReferenceTable">
+    <Key>
+      <PropertyRef Name="index" />
+    </Key>
+    <Property Name="index" Type="Int32" Nullable="false" />
+    <Property Name="Standard_Score" Type="Int32" />
+    <Property Name="Percent" Type="Double" />
+  </EntityType>
+  <EntityType Name="Text_Reading">
+    <Key>
+      <PropertyRef Name="Function" />
+    </Key>
+    <Property Name="Function" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AdvancedPhonics_VowelDigraphs1">
+    <End Role="VowelDigraphs" Type="Self.VowelDigraph" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AdvancedPhonics" Type="Self.AdvancedPhonic" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="VowelDigraphs">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="AdvancedPhonics">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CodeKnowledge_Summations_AdvancedPhonics1">
+    <End Role="AdvancedPhonics" Type="Self.AdvancedPhonic" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="CodeKnowledge_Summations" Type="Self.CodeKnowledge_Summations" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="AdvancedPhonics">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="CodeKnowledge_Summations">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsonantDigraphs_BeginningPhonics">
+    <End Role="BeginningPhonics" Type="Self.BeginningPhonic" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ConsonantDigraphs" Type="Self.ConsonantDigraph" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="BeginningPhonics">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="ConsonantDigraphs">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_3snd_Words_Blending_2snd_Words">
+    <End Role="Blending_2snd_Words" Type="Self.Blending_2snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_3snd_Words" Type="Self.Blending_3snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_2snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_4snd_Words_Blending_3snd_Words">
+    <End Role="Blending_3snd_Words" Type="Self.Blending_3snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_4snd_Words" Type="Self.Blending_4snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_5snd_Words_Blending_4snd_Words">
+    <End Role="Blending_4snd_Words" Type="Self.Blending_4snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_5snd_Words" Type="Self.Blending_5snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Blending_Summation_Blending_5snd_Words">
+    <End Role="Blending_5snd_Words" Type="Self.Blending_5snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Blending_Summation" Type="Self.Blending_Summation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Blending_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Blending_Summation">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VowelDigraphs_ConsonantDigraphs">
+    <End Role="ConsonantDigraphs" Type="Self.ConsonantDigraph" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="VowelDigraphs" Type="Self.VowelDigraph" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="ConsonantDigraphs">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="VowelDigraphs">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_List_ReadingSources">
+    <End Role="ReadingSources" Type="Self.ReadingSource" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="List" Type="Self.List" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="List">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Text_ReadingSources">
+    <End Role="ReadingSources" Type="Self.ReadingSource" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Text" Type="Self.Text" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ReadingSources">
+        <PropertyRef Name="Source" />
+      </Principal>
+      <Dependent Role="Text">
+        <PropertyRef Name="Source" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_2snd_NonWords_Segment_5snd_Words">
+    <End Role="Segment_5snd_Words" Type="Self.Segment_5snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_2snd_NonWords" Type="Self.Segment_2snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_2snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_3snd_NonWords_Segment_2snd_NonWords">
+    <End Role="Segment_2snd_NonWords" Type="Self.Segment_2snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_3snd_NonWords" Type="Self.Segment_3snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_2snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_3snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_3snd_Words_Segment_2snd_Words">
+    <End Role="Segment_2snd_Words" Type="Self.Segment_2snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_3snd_Words" Type="Self.Segment_3snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_2snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_4snd_NonWords_Segment_3snd_NonWords">
+    <End Role="Segment_3snd_NonWords" Type="Self.Segment_3snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_4snd_NonWords" Type="Self.Segment_4snd_NonWords" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_3snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_4snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_4snd_Words_Segment_3snd_Words">
+    <End Role="Segment_3snd_Words" Type="Self.Segment_3snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_4snd_Words" Type="Self.Segment_4snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_3snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segmenting_Summation_Segment_4snd_NonWords">
+    <End Role="Segment_4snd_NonWords" Type="Self.Segment_4snd_NonWords" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segmenting_Summation" Type="Self.Segmenting_Summation" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_4snd_NonWords">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segmenting_Summation">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Segment_5snd_Words_Segment_4snd_Words">
+    <End Role="Segment_4snd_Words" Type="Self.Segment_4snd_Words" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Segment_5snd_Words" Type="Self.Segment_5snd_Words" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Segment_4snd_Words">
+        <PropertyRef Name="Count" />
+      </Principal>
+      <Dependent Role="Segment_5snd_Words">
+        <PropertyRef Name="Count" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FamilyLiteracyEntityDataModel" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+    <EntitySet Name="AdvancedPhonics" EntityType="Self.AdvancedPhonic" />
+    <EntitySet Name="BeginningPhonics" EntityType="Self.BeginningPhonic" />
+    <EntitySet Name="Blending_2snd_Words" EntityType="Self.Blending_2snd_Words" />
+    <EntitySet Name="Blending_3snd_Words" EntityType="Self.Blending_3snd_Words" />
+    <EntitySet Name="Blending_4snd_Words" EntityType="Self.Blending_4snd_Words" />
+    <EntitySet Name="Blending_5snd_Words" EntityType="Self.Blending_5snd_Words" />
+    <EntitySet Name="Blending_Summation" EntityType="Self.Blending_Summation" />
+    <EntitySet Name="Classrooms" EntityType="Self.Classroom" />
+    <EntitySet Name="Clinicians" EntityType="Self.Clinician" />
+    <EntitySet Name="Clinician_DailyOutSchedule" EntityType="Self.Clinician_DailyOutSchedule" />
+    <EntitySet Name="CodeKnowledge_Summations" EntityType="Self.CodeKnowledge_Summations" />
+    <EntitySet Name="ConsonantDigraphs" EntityType="Self.ConsonantDigraph" />
+    <EntitySet Name="DefaultScheduleFileLocations" EntityType="Self.DefaultScheduleFileLocation" />
+    <EntitySet Name="GridViewColumnSizeAdjustments" EntityType="Self.GridViewColumnSizeAdjustment" />
+    <EntitySet Name="GuardianProfiles" EntityType="Self.GuardianProfile" />
+    <EntitySet Name="Languages" EntityType="Self.Language" />
+    <EntitySet Name="Language_Tests" EntityType="Self.Language_Tests" />
+    <EntitySet Name="Lists" EntityType="Self.List" />
+    <EntitySet Name="MainSchedules" EntityType="Self.MainSchedule" />
+    <EntitySet Name="Memories" EntityType="Self.Memory" />
+    <EntitySet Name="Memory_Tests" EntityType="Self.Memory_Tests" />
+    <EntitySet Name="Phonological_Awareness" EntityType="Self.Phonological_Awareness" />
+    <EntitySet Name="Phonological_Awareness_Tests" EntityType="Self.Phonological_Awareness_Tests" />
+    <EntitySet Name="Rapid_Naming" EntityType="Self.Rapid_Naming" />
+    <EntitySet Name="Rapid_Naming_Tests" EntityType="Self.Rapid_Naming_Tests" />
+    <EntitySet Name="ReadingSources" EntityType="Self.ReadingSource" />
+    <EntitySet Name="Segment_2snd_NonWords" EntityType="Self.Segment_2snd_NonWords" />
+    <EntitySet Name="Segment_2snd_Words" EntityType="Self.Segment_2snd_Words" />
+    <EntitySet Name="Segment_3snd_NonWords" EntityType="Self.Segment_3snd_NonWords" />
+    <EntitySet Name="Segment_3snd_Words" EntityType="Self.Segment_3snd_Words" />
+    <EntitySet Name="Segment_4snd_NonWords" EntityType="Self.Segment_4snd_NonWords" />
+    <EntitySet Name="Segment_4snd_Words" EntityType="Self.Segment_4snd_Words" />
+    <EntitySet Name="Segment_5snd_Words" EntityType="Self.Segment_5snd_Words" />
+    <EntitySet Name="Segmenting_Summation" EntityType="Self.Segmenting_Summation" />
+    <EntitySet Name="Spellings" EntityType="Self.Spelling" />
+    <EntitySet Name="Spelling_Tests" EntityType="Self.Spelling_Tests" />
+    <EntitySet Name="Stud_Guard_Rel" EntityType="Self.Stud_Guard_Rel" />
+    <EntitySet Name="StudentCurrentReadingLevels" EntityType="Self.StudentCurrentReadingLevel" />
+    <EntitySet Name="StudentHours" EntityType="Self.StudentHour" />
+    <EntitySet Name="StudentInfoes" EntityType="Self.StudentInfo" />
+    <EntitySet Name="StudentNotes" EntityType="Self.StudentNote" />
+    <EntitySet Name="StudentProfiles" EntityType="Self.StudentProfile" />
+    <EntitySet Name="StudentSchools" EntityType="Self.StudentSchool" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Texts" EntityType="Self.Text" />
+    <EntitySet Name="Text_Reading_Tests" EntityType="Self.Text_Reading_Tests" />
+    <EntitySet Name="VowelDigraphs" EntityType="Self.VowelDigraph" />
+    <EntitySet Name="Word_Reading" EntityType="Self.Word_Reading" />
+    <EntitySet Name="Word_Reading_Tests" EntityType="Self.Word_Reading_Tests" />
+    <EntitySet Name="StandardScore_ReferenceTable" EntityType="Self.StandardScore_ReferenceTable" />
+    <EntitySet Name="Text_Reading" EntityType="Self.Text_Reading" />
+    <AssociationSet Name="FK_AdvancedPhonics_VowelDigraphs1" Association="Self.FK_AdvancedPhonics_VowelDigraphs1">
+      <End Role="VowelDigraphs" EntitySet="VowelDigraphs" />
+      <End Role="AdvancedPhonics" EntitySet="AdvancedPhonics" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CodeKnowledge_Summations_AdvancedPhonics1" Association="Self.FK_CodeKnowledge_Summations_AdvancedPhonics1">
+      <End Role="AdvancedPhonics" EntitySet="AdvancedPhonics" />
+      <End Role="CodeKnowledge_Summations" EntitySet="CodeKnowledge_Summations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsonantDigraphs_BeginningPhonics" Association="Self.FK_ConsonantDigraphs_BeginningPhonics">
+      <End Role="BeginningPhonics" EntitySet="BeginningPhonics" />
+      <End Role="ConsonantDigraphs" EntitySet="ConsonantDigraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_3snd_Words_Blending_2snd_Words" Association="Self.FK_Blending_3snd_Words_Blending_2snd_Words">
+      <End Role="Blending_2snd_Words" EntitySet="Blending_2snd_Words" />
+      <End Role="Blending_3snd_Words" EntitySet="Blending_3snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_4snd_Words_Blending_3snd_Words" Association="Self.FK_Blending_4snd_Words_Blending_3snd_Words">
+      <End Role="Blending_3snd_Words" EntitySet="Blending_3snd_Words" />
+      <End Role="Blending_4snd_Words" EntitySet="Blending_4snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_5snd_Words_Blending_4snd_Words" Association="Self.FK_Blending_5snd_Words_Blending_4snd_Words">
+      <End Role="Blending_4snd_Words" EntitySet="Blending_4snd_Words" />
+      <End Role="Blending_5snd_Words" EntitySet="Blending_5snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Blending_Summation_Blending_5snd_Words" Association="Self.FK_Blending_Summation_Blending_5snd_Words">
+      <End Role="Blending_5snd_Words" EntitySet="Blending_5snd_Words" />
+      <End Role="Blending_Summation" EntitySet="Blending_Summation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VowelDigraphs_ConsonantDigraphs" Association="Self.FK_VowelDigraphs_ConsonantDigraphs">
+      <End Role="ConsonantDigraphs" EntitySet="ConsonantDigraphs" />
+      <End Role="VowelDigraphs" EntitySet="VowelDigraphs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_List_ReadingSources" Association="Self.FK_List_ReadingSources">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="List" EntitySet="Lists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Text_ReadingSources" Association="Self.FK_Text_ReadingSources">
+      <End Role="ReadingSources" EntitySet="ReadingSources" />
+      <End Role="Text" EntitySet="Texts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_2snd_NonWords_Segment_5snd_Words" Association="Self.FK_Segment_2snd_NonWords_Segment_5snd_Words">
+      <End Role="Segment_5snd_Words" EntitySet="Segment_5snd_Words" />
+      <End Role="Segment_2snd_NonWords" EntitySet="Segment_2snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_3snd_NonWords_Segment_2snd_NonWords" Association="Self.FK_Segment_3snd_NonWords_Segment_2snd_NonWords">
+      <End Role="Segment_2snd_NonWords" EntitySet="Segment_2snd_NonWords" />
+      <End Role="Segment_3snd_NonWords" EntitySet="Segment_3snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_3snd_Words_Segment_2snd_Words" Association="Self.FK_Segment_3snd_Words_Segment_2snd_Words">
+      <End Role="Segment_2snd_Words" EntitySet="Segment_2snd_Words" />
+      <End Role="Segment_3snd_Words" EntitySet="Segment_3snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_4snd_NonWords_Segment_3snd_NonWords" Association="Self.FK_Segment_4snd_NonWords_Segment_3snd_NonWords">
+      <End Role="Segment_3snd_NonWords" EntitySet="Segment_3snd_NonWords" />
+      <End Role="Segment_4snd_NonWords" EntitySet="Segment_4snd_NonWords" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_4snd_Words_Segment_3snd_Words" Association="Self.FK_Segment_4snd_Words_Segment_3snd_Words">
+      <End Role="Segment_3snd_Words" EntitySet="Segment_3snd_Words" />
+      <End Role="Segment_4snd_Words" EntitySet="Segment_4snd_Words" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segmenting_Summation_Segment_4snd_NonWords" Association="Self.FK_Segmenting_Summation_Segment_4snd_NonWords">
+      <End Role="Segment_4snd_NonWords" EntitySet="Segment_4snd_NonWords" />
+      <End Role="Segmenting_Summation" EntitySet="Segmenting_Summation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Segment_5snd_Words_Segment_4snd_Words" Association="Self.FK_Segment_5snd_Words_Segment_4snd_Words">
+      <End Role="Segment_4snd_Words" EntitySet="Segment_4snd_Words" />
+      <End Role="Segment_5snd_Words" EntitySet="Segment_5snd_Words" />
+    </AssociationSet>
+    <EntitySet Name="CBMDatas" EntityType="FamilyLiteracyModel.CBMData" />
+    <EntitySet Name="Assessments" EntityType="FamilyLiteracyModel.Assessment" />
+    <AssociationSet Name="FK_Assessments_StudentProfile" Association="FamilyLiteracyModel.FK_Assessments_StudentProfile">
+      <End Role="StudentProfile" EntitySet="StudentProfiles" />
+      <End Role="Assessment" EntitySet="Assessments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CBMData">
+    <Key>
+      <PropertyRef Name="Count" />
+    </Key>
+    <Property Name="Count" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Correct_Words_Each_Minute" Type="Int32" />
+    <Property Name="Errors" Type="Int32" />
+    <Property Name="Timed" Type="DateTime" Precision="0" />
+    <Property Name="Word_Count" Type="Int32" />
+    <Property Name="Test_Method" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Text_Source" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Reading_Level" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Passage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Assessment">
+    <Key>
+      <PropertyRef Name="AssessmentID" />
+    </Key>
+    <Property Name="AssessmentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" />
+    <Property Name="Group" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Function" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Test_Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Raw_Score" Type="Int32" />
+    <Property Name="Standard_Score" Type="Int32" />
+    <Property Name="OperatorID" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TestSignatureID" Type="Guid" />
+    <NavigationProperty Name="StudentProfile" Relationship="FamilyLiteracyModel.FK_Assessments_StudentProfile" FromRole="Assessment" ToRole="StudentProfile" />
+  </EntityType>
+  <Association Name="FK_Assessments_StudentProfile">
+    <End Type="FamilyLiteracyModel.StudentProfile" Role="StudentProfile" Multiplicity="0..1" />
+    <End Type="FamilyLiteracyModel.Assessment" Role="Assessment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StudentProfile">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="Assessment">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
